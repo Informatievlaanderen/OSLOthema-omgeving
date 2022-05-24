@@ -1,7 +1,35 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/Matrix> a skos:ConceptScheme;
-    skos:prefLabel "Matrix" ;
-    skos:definition "De omgeving waarin de emissie zich voordoet." .
+<https://data.vlaanderen.be/id/conceptscheme> a skos:ConceptScheme;
+  skos:definition "De omgeving waarin de stof gemeten wordt."@nl;
+  skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:prefLabel "Matrix"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme>;
+  skos:narrower <https://data.vlaanderen.be/id/concept/Matrix/Afvalwater>, <https://data.vlaanderen.be/id/concept/Matrix/Grondwater>,
+    <https://data.vlaanderen.be/id/concept/Matrix/Oppervlaktewater>, <https://data.vlaanderen.be/id/concept/Matrix/Waterbodem>;
+  skos:prefLabel "Matrix"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme> .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Grondwater> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme>;
+  skos:prefLabel "Grondwater"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Afvalwater> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme>;
+  skos:prefLabel "Afvalwater"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Oppervlaktewater> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme>;
+  skos:prefLabel "Oppervlaktewater"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Waterbodem> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme>;
+  skos:prefLabel "Waterbodem"@nl .
 
