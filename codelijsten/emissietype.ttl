@@ -8,11 +8,11 @@
 <https://data.vlaanderen.be/id/concept/Emissietype/Diffuus> a skos:Concept; 
     skos:prefLabel "Diffuse emissie" ;
     skos:definition "Een diffuse emissie, in een andere vorm dan vanuit een puntbron, in de lucht, bodem of water, alsmede in enig product" ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> . 
 
 <https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
     skos:prefLabel "Geleide emissie" ;
     skos:definition "Een emissie afkomstig van een schoorsteen waarvoor bepaalde fysische kenmerken bestaan (ligging, afmetingen) en waarvan het debiet kan worden bepaald" ;
-    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
