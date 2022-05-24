@@ -2,7 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren> a skos:ConceptScheme;
-  skos:definition "een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
+  skos:definition "Een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
   skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
   skos:prefLabel "Bioindicatoren"@nl .
 
