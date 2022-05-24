@@ -1,0 +1,6 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Observatieprocedure> a skos:ConceptScheme;
+    skos:prefLabel "Observatieprocedure" ;
+    skos:definition "Verwijzing naar het Proces waarmee het resultaat van een Observatie is bekomen." .
