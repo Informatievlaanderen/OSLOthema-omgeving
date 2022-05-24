@@ -1,16 +1,16 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://test.data.vlaanderen.be/id/conceptscheme/Emissietype> a skos:ConceptScheme;
+<https://data.vlaanderen.be/id/conceptscheme/Emissietype> a skos:ConceptScheme;
     skos:prefLabel "Emissietype" ;
     skos:definition "Een type emissie"@nl .
 
-<https://test.data.vlaanderen.be/id/conceptscheme/Emissietype/Diffuus> a skos:Concept; 
+<https://data.vlaanderen.be/id/conceptscheme/Emissietype/Diffuus> a skos:Concept; 
     skos:prefLabel "Diffuse emissie"@nl ;
     skos:definition "Een diffuse emissie, in een andere vorm dan vanuit een puntbron, in de lucht, bodem of water, alsmede in enig product" ;
-    skos:inScheme <https://test.data.vlaanderen.be/id/conceptscheme/Emissietype>;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype>;
 
-<https://test.data.vlaanderen.be/id/conceptscheme/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/conceptscheme/Emissietype/Geleid> a skos:Concept;
     skos:prefLabel "Geleide emissie"@nl ;
     skos:definition "Een emissie afkomstig van een schoorsteen waarvoor bepaalde fysische kenmerken bestaan (ligging, afmetingen) en waarvan het debiet kan worden bepaald" ;
-    skos:inScheme <https://test.data.vlaanderen.be/id/conceptscheme/Emissietype>;
+    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype>;
