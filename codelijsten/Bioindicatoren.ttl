@@ -1,1 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
+<https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren> a skos:ConceptScheme;
+  skos:definition "een organisme waarmee een verandering of verontreiniging van het milieu kan worden gesignaleerd. Het principe achter het gebruik van bio-indicatoren is dat de natuurlijke samenstelling van een levensgemeenschap wordt bepaald door de fysische en chemische eigenschappen van het ecosysteem."@nl;
+  skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:prefLabel "Bioindicatoren"@nl .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:narrower <https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-fytobenthos>,
+    <https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-fytoplankton>, <https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-macro-invertebraten>,
+    <https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-macrofyten>, <https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-visfauna>;
+  skos:prefLabel "Bioindicatoren"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren> .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-fytoplankton> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:prefLabel "EKC-fytoplankton"@nl .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-macrofyten> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:prefLabel "EKC-macrofyten"@nl .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-fytobenthos> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:prefLabel "EKC-fytobenthos"@nl .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-macro-invertebraten> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:prefLabel "EKC-macro-invertebraten"@nl .
+
+<https://data.vlaanderen.be/id/concept/Bioindicatoren/EKC-visfauna> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Bioindicatoren>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bioindicatoren>;
+  skos:prefLabel "EKC-visfauna"@nl .
