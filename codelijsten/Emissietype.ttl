@@ -1,5 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
 
 <https://data.vlaanderen.be/id/conceptscheme/Emissietype> a skos:ConceptScheme;
     skos:prefLabel "Emissietype" ;
@@ -10,7 +11,7 @@
     skos:definition "Een diffuse emissie, in een andere vorm dan vanuit een puntbron, in de lucht, bodem of water, alsmede in enig product." ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
-    skos:relatedMatch "test" .
+    rdfs:seeAlso <https://overheid.vlaanderen.be/hergebruik/licenties/v1-0/html/modellicentie-gratis-hergebruik>
 
 <https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
     skos:prefLabel "Geleide emissie" ;
