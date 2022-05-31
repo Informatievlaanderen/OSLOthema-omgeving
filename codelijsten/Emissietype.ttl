@@ -9,7 +9,7 @@
     skos:prefLabel "Diffuse emissie" ;
     skos:definition "Een diffuse emissie, in een andere vorm dan vanuit een puntbron, in de lucht, bodem of water, alsmede in enig product." ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
-    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
 <https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
     skos:prefLabel "Geleide emissie" ;
