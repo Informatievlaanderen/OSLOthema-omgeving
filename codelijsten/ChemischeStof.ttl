@@ -77,7 +77,7 @@
     <https://data.vlaanderen.be/id/concept/ChemischeStof/cumafos>, <https://data.vlaanderen.be/id/concept/ChemischeStof/cybutryne>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/1,2-Dichloorethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Anthraceen>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/Bicarbonaat>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Cadmium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStof/Calcium\u0020ion>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Carbonaat>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStof/CalciumIon>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Carbonaat>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/Dibenzo(a,h)anthraceen>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Fenol>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/Formaldehyde>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Heptachloor>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/Hexachloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStof/Hexachloorbutadieen>,
@@ -1325,10 +1325,10 @@
   skos:prefLabel "Cadmium"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStof> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStof/Calcium\u0020ion> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStof/CalciumIon> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStof>;
   skos:notation "BHPQYMZQTOCNFJ-UHFFFAOYSA-N";
-  skos:prefLabel "Calcium ion"@nl;
+  skos:prefLabel "CalciumIon"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStof> .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStof/Carbonaat> a skos:Concept;
