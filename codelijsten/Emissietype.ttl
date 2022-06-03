@@ -3,7 +3,7 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/Emissietype> a skos:ConceptScheme;
     skos:prefLabel "Emissietype" ;
-    skos:definition "Een type emissie" .
+    skos:definition "Een type van een emissie" .
 
 <https://data.vlaanderen.be/id/concept/Emissietype/Diffuus> a skos:Concept; 
     skos:prefLabel "Diffuse emissie" ;
