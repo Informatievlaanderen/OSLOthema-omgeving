@@ -18,1697 +18,640 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> a skos:ConceptScheme;
   skos:definition "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."@nl;
-  skos:hasTopConcept <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/VOX>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/anthraceen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/calciumIon>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/carbonaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibenzo(a,h)anthraceen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/diflufenican>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/formaldehyde>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/heptachloor>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorbutadieen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hydroxide>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/magnesium>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/mangaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/methaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/natrium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/styreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorfenolen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloormethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifluralin>;
+  skos:hasTopConcept <https://data.vlaanderen.be/id/concept/ChemischeStoffen/(2,4-dichloorfenoxy)-azijnzuur>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1-dichloorethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1-dichlooretheen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dibroomethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichlooretheen,cis>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichlooretheen,trans>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorpropaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloor-2-propanol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorpropeen,cis>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorpropeen,trans>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,4-dichloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2,3-epoxypropaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2,4-dinitrobenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2-nitrobenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-3-nitrobenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-4-nitrobenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloornaftaleen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3-dichlooraniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3-dichloorpropeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,6-trichloor-1,3,5-triazine>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4-dichlooraniline>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4-dichloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,5-dichlooraniline>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,6-dichlooraniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-amino-4-chloorfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloor-1,3-butadieen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloor-para-toluïdine>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloorethanol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloornaftaleen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloortolueen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,4-dichlooraniline>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,5-dichlooraniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloorfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloorpropeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloortolueen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloor-2-nitroaniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloor-3-methylfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloortolueen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/MCPA>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/Y-hexachloorcyclo-hexaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/acenafteen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/aclonifen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/aldrin>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/alfa-alfa-dichloortolueen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/acenaftyleen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/alfa-chloortolueen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/ammoniak>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/antimoon>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-28>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-52>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-101>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-118>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-138>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-153>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-180>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/antraceen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/arseen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/azinfos-ethyl>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/azinfos-methyl>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/barium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/(2,4,5-trichloorfenoxy)-azijnzuur>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzidine>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,4,5-tetrachloorbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2,2-tetrachloorethaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(a)antra-ceen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(a)pyreen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(b)fluoran-teen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(g,h,i)pery-leen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(k)fluoran-teen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/beryllium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/bicarbonaat>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,3-trichloorbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,4-trichloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3,5-trichloorbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,1-trichloorethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2-trichloorethaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/bifenox>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,5-trichloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,6-trichloorfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,5-trichloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,4-trichloorfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,6-trichloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,4,5-trichloorfenol>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2-trichloortrifluor-ethaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/bis-(2-chloorisopropyl)-ether>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/boor>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/cadmium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorazijnzuur>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloornitrotoluenen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/atrazine>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/bentazon>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloridazon>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/alachloor>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorfenvinphos>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorpyrifos>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloroform>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chroom>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/chryseen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/cis-chloordaanTrans-chloordaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/cumafos>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/cybutryne>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/cypermethrin>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/demeton>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/di(2-ethylhexyl)-ftalaat>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibenzo(a,h)an-traceen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltindichloride>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltinoxide>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltinzouten>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloorbenzidines>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloormethaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloornitrobenze-nen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloorvos>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichlorprop>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dicofol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dieldrin>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/diethylamine>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/difenyl>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dimethoaat>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/dimethylamine>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/disulfoton>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/diuron>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/endrin>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/ethylbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenantreen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenitrothion>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenthion>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/flufenacet>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fluoranteen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/fluoreen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/foxim>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/gebromeerdeDifenylethers>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexabroom-cyclododecaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorbenzeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorbutadieen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorethaan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/indeno(1,2,3-cd)pyreen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/isodrin>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/isopropylbenzeen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/isoproturon>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/kobalt>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/koolstoftetrachloride>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/koper>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/kwik>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/linuron>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/lood>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/m-chlooraniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/malathion>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/mecoprop>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/methamidofos>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/mevinfos>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/molybdeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/monolinuron>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/naftaleen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/nikkel>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/nitriet>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/nonylfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/o-chlooraniline>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/octylfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/omethoaat>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/oxydemeton-methyl>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/p,p'-DDT>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/p-chlooraniline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/parathion-ethyl>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/parathion-methyl>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorben-zeen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorfenol>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/propanil>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/pyreen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/quinoxyfen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/seleen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/simazine>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tellurium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/terbutryn>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tetrabutyltin>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tetrachlooretheen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/thallium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tin>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/titanium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tolueen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tri-n-butylfosfaat>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/triazofos>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/tributyltin>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichlooracetal-dehyde-hydraat>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorethyleen>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorfon>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinacetaat>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinchloride>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinhydroxide>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifluraline>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/uranium>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/vanadium>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/vinylchloride>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/xylenen>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/zilver>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/zink>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/α-endosulfan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/α-hexachloorcyclo-hexaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/β-endosulfan>, <https://data.vlaanderen.be/id/concept/ChemischeStoffen/β-hexachloorcyclo-hexaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/σ-hexachloorcyclo-hexaan>;
   skos:prefLabel "ChemischeStoffen"@nl .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>
-  a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/flufenacet> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:narrower <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/ammoniak>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/antimoon>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/arseen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/barium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/beryllium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/bicarbonaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/boor>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/cadmium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/chroom>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/flufenacet>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/kobalt>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/koper>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/kwik>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/lood>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/molybdeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/nikkel>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/nitriet>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/opgelostFluoride>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/seleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/tellurium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/thallium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/tin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/titanium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/totaalCyanide>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/totaalFosfor>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/uranium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/vanadium>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/zilver>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/zink>;
-  skos:prefLabel "GevaarlijkeStoffen-AnorganischeStoffen"@nl;
+  skos:prefLabel "flufenacet"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/flufenacet>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "flufenacet"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/arseen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/arseen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "RQNWIZPPADIBDY-UHFFFAOYSA-N";
-  skos:prefLabel "arseen"@nl .
+  skos:prefLabel "arseen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/cadmium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/cadmium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "BDOSMKKIYDKNTQ-UHFFFAOYSA-N";
-  skos:prefLabel "cadmium"@nl .
+  skos:prefLabel "cadmium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/kwik>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/kwik> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "QSHDDOUJBYECFT-UHFFFAOYSA-N";
-  skos:prefLabel "kwik"@nl .
+  skos:prefLabel "kwik"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/barium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/barium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "DSAJWYNOEDNPEQ-UHFFFAOYSA-N";
-  skos:prefLabel "barium"@nl .
+  skos:prefLabel "barium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/beryllium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/beryllium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "ATBAMAFKBVZNFJ-UHFFFAOYSA-N";
-  skos:prefLabel "beryllium"@nl .
+  skos:prefLabel "beryllium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/boor>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/boor> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "ZOXJGFHDIHLPTG-UHFFFAOYSA-N";
-  skos:prefLabel "boor"@nl .
+  skos:prefLabel "boor"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/chroom>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chroom> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "VYZAMTAEIAYCRO-UHFFFAOYSA-N";
-  skos:prefLabel "chroom"@nl .
+  skos:prefLabel "chroom"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/kobalt>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/kobalt> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "GUTLYIVDDKVIGB-UHFFFAOYSA-N";
-  skos:prefLabel "kobalt"@nl .
+  skos:prefLabel "kobalt"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/koper>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/koper> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "RYGMFSIKBFXOCR-UHFFFAOYSA-N";
-  skos:prefLabel "koper"@nl .
+  skos:prefLabel "koper"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/lood>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/lood> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "WABPQHHGFIMREM-UHFFFAOYSA-N";
-  skos:prefLabel "lood"@nl .
+  skos:prefLabel "lood"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/molybdeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/molybdeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "JKQOBWVOAYFWKG-UHFFFAOYSA-N";
-  skos:prefLabel "molybdeen"@nl .
+  skos:prefLabel "molybdeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/nikkel>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/nikkel> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "PXHVJJICTQNCMI-UHFFFAOYSA-N";
-  skos:prefLabel "nikkel"@nl .
+  skos:prefLabel "nikkel"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/seleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/seleen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "JNMWHTHYDQTDQZ-UHFFFAOYSA-N";
-  skos:prefLabel "seleen"@nl .
+  skos:prefLabel "seleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/thallium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/thallium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "BKVIYDNLLOSFOA-UHFFFAOYSA-N";
-  skos:prefLabel "thallium"@nl .
+  skos:prefLabel "thallium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/tin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "ATJFFYVFTNAWJD-UHFFFAOYSA-N";
-  skos:prefLabel "tin"@nl .
+  skos:prefLabel "tin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/uranium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/uranium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "JFALSRSLKYAFGM-UHFFFAOYSA-N";
-  skos:prefLabel "uranium"@nl .
+  skos:prefLabel "uranium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/vanadium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/vanadium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "LEONUFNNVUYDNQ-UHFFFAOYSA-N";
-  skos:prefLabel "vanadium"@nl .
+  skos:prefLabel "vanadium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/zilver>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/zilver> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "BQCADISMDOOEFD-UHFFFAOYSA-N";
-  skos:prefLabel "zilver"@nl .
+  skos:prefLabel "zilver"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/zink>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/zink> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "HCHKCACWOHOZIP-UHFFFAOYSA-N";
-  skos:prefLabel "zink"@nl .
+  skos:prefLabel "zink"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/antimoon>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/antimoon> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "WATWJIUSRGPENY-UHFFFAOYSA-N";
-  skos:prefLabel "antimoon"@nl .
+  skos:prefLabel "antimoon"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/tellurium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tellurium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "PORWMNRCUJJQNO-UHFFFAOYSA-N";
-  skos:prefLabel "tellurium"@nl .
+  skos:prefLabel "tellurium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/titanium>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/titanium> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "RTAQQCXQSZGOHL-UHFFFAOYSA-N";
-  skos:prefLabel "titanium"@nl .
+  skos:prefLabel "titanium"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/totaalFosfor>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "totaalFosfor"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/ammoniak>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/ammoniak> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "QGZKDVFQNNGYKY-UHFFFAOYSA-N";
-  skos:prefLabel "ammoniak"@nl .
+  skos:prefLabel "ammoniak"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/nitriet>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/nitriet> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "nitriet"@nl .
+  skos:prefLabel "nitriet"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/totaalCyanide>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "totaalCyanide"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/opgelostFluoride>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "opgelostFluoride"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen/bicarbonaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-AnorganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/bicarbonaat> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "BVKZGUZCCUSVTD-UHFFFAOYSA-M";
-  skos:prefLabel "bicarbonaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen>
-  a skos:Concept;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:narrower <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/adsorbeerbareOrganischeHalogeenverbindingen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/anionischeOppervlakteactieveStoffen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/niet-ionogeneEnKationischeOppervlakteactieveStoffen>;
-  skos:prefLabel "GevaarlijkeStoffen-Groepsnormen"@nl;
+  skos:prefLabel "bicarbonaat"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/adsorbeerbareOrganischeHalogeenverbindingen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "adsorbeerbareOrganischeHalogeenverbindingen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/anionischeOppervlakteactieveStoffen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "anionischeOppervlakteactieveStoffen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen/niet-ionogeneEnKationischeOppervlakteactieveStoffen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-Groepsnormen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/aldrin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "QBYJBZPUGVGKQQ-SJJAEHHWSA-N";
-  skos:prefLabel "niet-ionogeneEnKationischeOppervlakteactieveStoffen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>
-  a skos:Concept;
-  skos:narrower <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/(2,4-dichloorfenoxy)-azijnzuur>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1-dichloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1-dichlooretheen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dibroomethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichlooretheen,cis>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichlooretheen,trans>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorpropaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloor-2-propanol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorpropeen,cis>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorpropeen,trans>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,4-dichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2,3-epoxypropaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2,4-dinitrobenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2-nitrobenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-3-nitrobenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-4-nitrobenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloornaftaleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3-dichloorpropeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,6-trichloor-1,3,5-triazine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4-dichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,5-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,6-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-amino-4-chloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloor-1,3-butadieen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloor-para-toluïdine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloorethanol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloornaftaleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloortolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,4-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,5-dichlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloorpropeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloortolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloor-2-nitroaniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloor-3-methylfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloortolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/DDT-totaal>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/MCPA>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB101>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/(2,4,5-trichloorfenoxy)-azijnzuur>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB118>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,4,5-tetrachloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2,2-tetrachloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB138>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB153>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB180>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB28>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB52>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/Y-hexachloorcyclo-hexaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/acenafteen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,3-trichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,4-trichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3,5-trichloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,1-trichloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2-trichloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/acenaftyleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,5-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,6-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,5-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,4-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,6-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,4,5-trichloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2-trichloortrifluor-ethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/aclonifen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/aldrin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alfa-alfa-dichloortolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alfa-chloortolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/antraceen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/azinfos-ethyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/atrazine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/azinfos-methyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bentazon>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alachloor>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/C10-13-chlooralkanen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzidine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(a)antra-ceen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(a)pyreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(b)fluoran-teen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(g,h,i)pery-leen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(k)fluoran-teen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bifenox>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:narrower <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bis-(2-chloorisopropyl)-ether>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorazijnzuur>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorfenvinphos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloornitrotoluenen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorpyrifos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloridazo>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloroform>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chryseen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaanTrans-chloordaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cumafos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cybutryne>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cypermethrin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/demeton>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/di(2-ethylhexyl)-ftalaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibenzo(a,h)an-traceen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltindichloride>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltinoxide>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltinzouten>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloorbenzidines>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloormethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloornitrobenze-nen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloorvos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichlorprop>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dicofol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dieldrin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/diethylamine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/difenyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dimethoaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dimethylamine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dioxinenEnDioxineachtigeVerbindingen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/disulfoton>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/diuron>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/endrin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/ethylbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenantreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenitrothion>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenthion>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fluoranteen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fluoreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/foxim>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/gebromeerdeDifenylethers>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/heptachloorEnHeptachloorepoxide>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexabroom-cyclododecaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbutadieen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorethaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/indeno(1,2,3-cd)pyreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isodrin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isopropylbenzeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isoproturon>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/koolstoftetrachloride>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/linuron>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/m-chlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/malathion>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/mecoprop>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/methamidofos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/mevinfos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/monolinuron>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/naftaleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/nonylfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/o-chlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/octylfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/omethoaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/oxydemeton-methyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/p,p'-DDT>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/p-chlooraniline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/parathion-ethyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/parathion-methyl>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pentachloorben-zeen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pentachloorfenol>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/perfluoroctaansul-fonzuurEnZijnDerivaten>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/propanil>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pyreen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/quinoxyfen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/simazine>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/terbutryn>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tetrabutyltin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tetrachlooretheen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tolueen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tri-n-butylfosfaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/triazofos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tributyltin>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichlooracetal-dehyde-hydraat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichloorethyleen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichloorfon>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinacetaat>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinchloride>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinhydroxide>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifluraline>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/vinylchloride>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/xylenen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/α-endosulfan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/α-hexachloorcyclo-hexaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/β-endosulfan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/β-hexachloorcyclo-hexaan>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/σ-hexachloorcyclo-hexaan>;
-  skos:notation "DFBKLUNHFCTMDC-PICURKEMSA-N";
-  skos:prefLabel "GevaarlijkeStoffen-OrganischeStoffen"@nl;
+  skos:prefLabel "aldrin"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/aldrin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "DFBKLUNHFCTMDC-GKRDHZSOSA-N";
-  skos:prefLabel "aldrin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dieldrin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "QBYJBZPUGVGKQQ-DIFDVCDBSA-N";
-  skos:prefLabel "dieldrin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/endrin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "SWFNPENEBHAHEB-UHFFFAOYSA-N";
-  skos:prefLabel "endrin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isodrin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "QBYJBZPUGVGKQQ-SJJAEHHWSA-N";
-  skos:prefLabel "isodrin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-amino-4-chloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dieldrin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "DFBKLUNHFCTMDC-PICURKEMSA-N";
-  skos:prefLabel "2-amino-4-chloorfenol"@nl .
+  skos:prefLabel "dieldrin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/azinfos-ethyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/endrin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "DFBKLUNHFCTMDC-GKRDHZSOSA-N";
-  skos:prefLabel "azinfos-ethyl"@nl .
+  skos:prefLabel "endrin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/azinfos-methyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/isodrin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "QBYJBZPUGVGKQQ-DIFDVCDBSA-N";
-  skos:prefLabel "azinfos-methyl"@nl .
+  skos:prefLabel "isodrin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-amino-4-chloorfenol> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "SWFNPENEBHAHEB-UHFFFAOYSA-N";
-  skos:prefLabel "benzeen"@nl .
+  skos:prefLabel "2-amino-4-chloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzidine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/azinfos-ethyl> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "benzidine"@nl .
+  skos:prefLabel "azinfos-ethyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alfa-chloortolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/azinfos-methyl> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "alfa-chloortolueen"@nl .
+  skos:prefLabel "azinfos-methyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alfa-alfa-dichloortolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "HOVQNZJYSORNB-UHFFFAOYSA-N";
-  skos:prefLabel "alfa-alfa-dichloortolueen"@nl .
+  skos:prefLabel "benzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/aclonifen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzidine> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "aclonifen"@nl .
+  skos:prefLabel "benzidine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bifenox>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/alfa-chloortolueen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "bifenox"@nl .
+  skos:prefLabel "alfa-chloortolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cybutryne>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/alfa-alfa-dichloortolueen>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "cybutryne"@nl .
+  skos:prefLabel "alfa-alfa-dichloortolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cypermethrin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/aclonifen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "cypermethrin"@nl .
+  skos:prefLabel "aclonifen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dioxinenEnDioxineachtigeVerbindingen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/bifenox> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "SUSRORUBZHMPCO-UHFFFAOYSA-N";
-  skos:prefLabel "dioxinenEnDioxineachtigeVerbindingen"@nl .
+  skos:prefLabel "bifenox"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/difenyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/cybutryne> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "difenyl"@nl .
+  skos:prefLabel "cybutryne"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/koolstoftetrachloride>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/cypermethrin> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "KAATUXNTWXVJKI-UHFFFAOYSA-N";
-  skos:prefLabel "koolstoftetrachloride"@nl .
+  skos:prefLabel "cypermethrin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichlooracetal-dehyde-hydraat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/difenyl> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trichlooracetal-dehyde-hydraat"@nl .
+  skos:prefLabel "difenyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaanTrans-chloordaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/koolstoftetrachloride> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "cis-chloordaanTrans-chloordaan"@nl .
+  skos:prefLabel "koolstoftetrachloride"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorazijnzuur>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichlooracetal-dehyde-hydraat>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloorazijnzuur"@nl .
+  skos:prefLabel "trichlooracetal-dehyde-hydraat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/o-chlooraniline>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/cis-chloordaanTrans-chloordaan>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "o-chlooraniline"@nl .
+  skos:prefLabel "cis-chloordaanTrans-chloordaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/m-chlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorazijnzuur> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "m-chlooraniline"@nl .
+  skos:prefLabel "chloorazijnzuur"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/p-chlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/o-chlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "p-chlooraniline"@nl .
+  skos:prefLabel "o-chlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/m-chlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloorbenzeen"@nl .
+  skos:prefLabel "m-chlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2,4-dinitrobenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/p-chlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1-chloor-2,4-dinitrobenzeen"@nl .
+  skos:prefLabel "p-chlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloorethanol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2-chloorethanol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloroform>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorbenzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "MVPPADPHJFYWMZ-UHFFFAOYSA-N";
-  skos:prefLabel "chloroform"@nl .
+  skos:prefLabel "chloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloor-3-methylfenol>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2,4-dinitrobenzeen>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "4-chloor-3-methylfenol"@nl .
+  skos:prefLabel "1-chloor-2,4-dinitrobenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloornaftaleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloorethanol> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1-chloornaftaleen"@nl .
+  skos:prefLabel "2-chloorethanol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloornaftaleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloroform> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2-chloornaftaleen"@nl .
+  skos:prefLabel "chloroform"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloor-2-nitroaniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloor-3-methylfenol> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "CFKMVGJGLGKFKI-UHFFFAOYSA-N";
-  skos:prefLabel "4-chloor-2-nitroaniline"@nl .
+  skos:prefLabel "4-chloor-3-methylfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2-nitrobenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloornaftaleen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "JTPNRXUCIXHOKM-UHFFFAOYSA-N";
-  skos:prefLabel "1-chloor-2-nitrobenzeen"@nl .
+  skos:prefLabel "1-chloornaftaleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-3-nitrobenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloornaftaleen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "CGYGETOMCSJHJU-UHFFFAOYSA-N";
-  skos:prefLabel "1-chloor-3-nitrobenzeen"@nl .
+  skos:prefLabel "2-chloornaftaleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-4-nitrobenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloor-2-nitroaniline> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1-chloor-4-nitrobenzeen"@nl .
+  skos:prefLabel "4-chloor-2-nitroaniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloornitrotoluenen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2-nitrobenzeen> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloornitrotoluenen"@nl .
+  skos:prefLabel "1-chloor-2-nitrobenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-3-nitrobenzeen> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2-chloorfenol"@nl .
+  skos:prefLabel "1-chloor-3-nitrobenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-4-nitrobenzeen> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "3-chloorfenol"@nl .
+  skos:prefLabel "1-chloor-4-nitrobenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloornitrotoluenen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "4-chloorfenol"@nl .
+  skos:prefLabel "chloornitrotoluenen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloor-1,3-butadieen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloorfenol> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "ISPYQTSUDJAMAB-UHFFFAOYSA-N";
-  skos:prefLabel "2-chloor-1,3-butadieen"@nl .
+  skos:prefLabel "2-chloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloorpropeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloorfenol> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "HORNXRXVQWOLPJ-UHFFFAOYSA-N";
-  skos:prefLabel "3-chloorpropeen"@nl .
+  skos:prefLabel "3-chloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloortolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloorfenol> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "WXNZTHHGJRFXKQ-UHFFFAOYSA-N";
-  skos:prefLabel "2-chloortolueen"@nl .
+  skos:prefLabel "4-chloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3-chloortolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloor-1,3-butadieen> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "3-chloortolueen"@nl .
+  skos:prefLabel "2-chloor-1,3-butadieen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/4-chloortolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloorpropeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "GPKDGVXBXQTHRY-UHFFFAOYSA-N";
-  skos:prefLabel "4-chloortolueen"@nl .
+  skos:prefLabel "3-chloorpropeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2-chloor-para-toluïdine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloortolueen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "IBSQPLPBRSHTTG-UHFFFAOYSA-N";
-  skos:prefLabel "2-chloor-para-toluïdine"@nl .
+  skos:prefLabel "2-chloortolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3-chloortolueen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)"@nl .
+  skos:prefLabel "3-chloortolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/cumafos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/4-chloortolueen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "NPDACUSDTOMAMK-UHFFFAOYSA-N";
-  skos:prefLabel "cumafos"@nl .
+  skos:prefLabel "4-chloortolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,6-trichloor-1,3,5-triazine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2-chloor-para-toluïdine> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,4,6-trichloor-1,3,5-triazine"@nl .
+  skos:prefLabel "2-chloor-para-toluïdine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/(2,4-dichloorfenoxy)-azijnzuur>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/cumafos> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "(2,4-dichloorfenoxy)-azijnzuur"@nl .
+  skos:prefLabel "cumafos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/DDT-totaal>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,6-trichloor-1,3,5-triazine>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "DDT-totaal"@nl .
+  skos:prefLabel "2,4,6-trichloor-1,3,5-triazine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/p,p'-DDT>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/(2,4-dichloorfenoxy)-azijnzuur>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "p,p'-DDT"@nl .
+  skos:prefLabel "(2,4-dichloorfenoxy)-azijnzuur"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/demeton>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/p,p'-DDT> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "demeton"@nl .
+  skos:prefLabel "p,p'-DDT"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dibroomethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/demeton> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,2-dibroomethaan"@nl .
+  skos:prefLabel "demeton"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltindichloride>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dibutyltindichloride"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltinoxide>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dibutyltinoxide"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibutyltinzouten>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dibroomethaan> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "PAAZPARNPHGIKF-UHFFFAOYSA-N";
-  skos:prefLabel "dibutyltinzouten"@nl .
+  skos:prefLabel "1,2-dibroomethaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltindichloride> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,3-dichlooraniline"@nl .
+  skos:prefLabel "dibutyltindichloride"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltinoxide> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,4-dichlooraniline"@nl .
+  skos:prefLabel "dibutyltinoxide"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,5-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibutyltinzouten> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,5-dichlooraniline"@nl .
+  skos:prefLabel "dibutyltinzouten"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,6-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "BRPSAOUFIJSKOT-UHFFFAOYSA-N";
-  skos:prefLabel "2,6-dichlooraniline"@nl .
+  skos:prefLabel "2,3-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,5-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "KQCMTOWTPBNWDB-UHFFFAOYSA-N";
-  skos:prefLabel "3,5-dichlooraniline"@nl .
+  skos:prefLabel "2,4-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,4-dichlooraniline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,5-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "AVYGCQXNNJPXSS-UHFFFAOYSA-N";
-  skos:prefLabel "3,4-dichlooraniline"@nl .
+  skos:prefLabel "2,5-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,6-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "JDMFXJULNGEPOI-UHFFFAOYSA-N";
-  skos:prefLabel "1,2-dichloorbenzeen"@nl .
+  skos:prefLabel "2,6-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,5-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "UQRLKWGPEVNVHT-UHFFFAOYSA-N";
-  skos:prefLabel "1,3-dichloorbenzeen"@nl .
+  skos:prefLabel "3,5-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,4-dichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,4-dichlooraniline> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "SDYWXFYBZPNOFX-UHFFFAOYSA-N";
-  skos:prefLabel "1,4-dichloorbenzeen"@nl .
+  skos:prefLabel "3,4-dichlooraniline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloorbenzidines>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorbenzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "RFFLAFLAYFXFSW-UHFFFAOYSA-N";
-  skos:prefLabel "dichloorbenzidines"@nl .
+  skos:prefLabel "1,2-dichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bis-(2-chloorisopropyl)-ether>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorbenzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "ZPQOPVIELGIULI-UHFFFAOYSA-N";
-  skos:prefLabel "bis-(2-chloorisopropyl)-ether"@nl .
+  skos:prefLabel "1,3-dichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1-dichloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,4-dichloorbenzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "OCJBOOLMMGQPQU-UHFFFAOYSA-N";
-  skos:prefLabel "1,1-dichloorethaan"@nl .
+  skos:prefLabel "1,4-dichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloorbenzidines> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,2-dichloorethaan"@nl .
+  skos:prefLabel "dichloorbenzidines"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1-dichlooretheen>
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/bis-(2-chloorisopropyl)-ether>
   a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,1-dichlooretheen"@nl .
+  skos:prefLabel "bis-(2-chloorisopropyl)-ether"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichlooretheen,cis>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1-dichloorethaan> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:notation "SCYULBFZEHDVBN-UHFFFAOYSA-N";
-  skos:prefLabel "1,2-dichlooretheen,cis"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichlooretheen,trans>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,2-dichlooretheen,trans"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloormethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "SCYULBFZEHDVBN-UHFFFAOYSA-N";
-  skos:prefLabel "dichloormethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloornitrobenze-nen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dichloornitrobenze-nen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4-dichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,4-dichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2-dichloorpropaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "YMWUJEATGCHHMB-UHFFFAOYSA-N";
-  skos:prefLabel "1,2-dichloorpropaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloor-2-propanol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,3-dichloor-2-propanol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorpropeen,cis>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "HFZWRUODUSTPEG-UHFFFAOYSA-N";
-  skos:prefLabel "1,3-dichloorpropeen,cis"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3-dichloorpropeen,trans>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "NKRKFALVUDBJE-UHFFFAOYSA-N";
-  skos:prefLabel "1,3-dichloorpropeen,trans"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3-dichloorpropeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,3-dichloorpropeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichlorprop>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dichlorprop"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dicofol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dicofol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dichloorvos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dichloorvos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/diethylamine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "diethylamine"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dimethoaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "UOAMTSKGCBMZTC-UHFFFAOYSA-N";
-  skos:prefLabel "dimethoaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dimethylamine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "OEBRKCOSUFCWJD-UHFFFAOYSA-N";
-  skos:prefLabel "dimethylamine"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/disulfoton>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "HPNMFZURTQLUMO-UHFFFAOYSA-N";
-  skos:prefLabel "disulfoton"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/α-endosulfan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "MCWXGJITAZMZEV-UHFFFAOYSA-N";
-  skos:prefLabel "α-endosulfan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/β-endosulfan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "ROSDSFDQCJNGOL-UHFFFAOYSA-N";
-  skos:prefLabel "β-endosulfan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1-chloor-2,3-epoxypropaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "DOFZAZXDOSGAJZ-UHFFFAOYSA-N";
-  skos:prefLabel "1-chloor-2,3-epoxypropaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/ethylbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "ethylbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenitrothion>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "fenitrothion"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenthion>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "fenthion"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "YNQLUTRBYVCPMQ-UHFFFAOYSA-N";
-  skos:prefLabel "hexachloorbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbutadieen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "ZNOLGFHPUIJIMJ-UHFFFAOYSA-N";
-  skos:prefLabel "hexachloorbutadieen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexabroom-cyclododecaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "PNVJTZOFSHSLTO-UHFFFAOYSA-N";
-  skos:prefLabel "hexabroom-cyclododecaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/heptachloorEnHeptachloorepoxide>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "heptachloorEnHeptachloorepoxide"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/α-hexachloorcyclo-hexaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "α-hexachloorcyclo-hexaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/β-hexachloorcyclo-hexaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "β-hexachloorcyclo-hexaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/Y-hexachloorcyclo-hexaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "Y-hexachloorcyclo-hexaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/σ-hexachloorcyclo-hexaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "σ-hexachloorcyclo-hexaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/hexachloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "hexachloorethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isopropylbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "isopropylbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/linuron>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "linuron"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/malathion>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "malathion"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/MCPA>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "RWGFKTVRMDUZSP-UHFFFAOYSA-N";
-  skos:prefLabel "MCPA"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/mecoprop>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "XKJMBINCVNINCA-UHFFFAOYSA-N";
-  skos:prefLabel "mecoprop"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/methamidofos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "JXSJBGJIGXNWCI-UHFFFAOYSA-N";
-  skos:prefLabel "methamidofos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/mevinfos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "mevinfos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/monolinuron>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "monolinuron"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/omethoaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "omethoaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/oxydemeton-methyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "oxydemeton-methyl"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(a)pyreen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "LKJPSUCKSLORMF-UHFFFAOYSA-N";
-  skos:prefLabel "benzo(a)pyreen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(b)fluoran-teen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "PZXOQEXFMJCDPG-UHFFFAOYSA-N";
-  skos:prefLabel "benzo(b)fluoran-teen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(k)fluoran-teen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "benzo(k)fluoran-teen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(g,h,i)pery-leen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "FMMWHPNWAFZXNH-UHFFFAOYSA-N";
-  skos:prefLabel "benzo(g,h,i)pery-leen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/indeno(1,2,3-cd)pyreen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "indeno(1,2,3-cd)pyreen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fluoranteen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "fluoranteen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/antraceen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "antraceen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/naftaleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "SXQBHARYMNFBPS-UHFFFAOYSA-N";
-  skos:prefLabel "naftaleen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fenantreen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "GVEPBJHOBDJJJI-UHFFFAOYSA-N";
-  skos:prefLabel "fenantreen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/acenafteen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "MWPLVEDNUUSJAV-UHFFFAOYSA-N";
-  skos:prefLabel "acenafteen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chryseen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "UFWIBTONFRDIAS-UHFFFAOYSA-N";
-  skos:prefLabel "chryseen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/benzo(a)antra-ceen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "YNPNZTXNASCQKK-UHFFFAOYSA-N";
-  skos:prefLabel "benzo(a)antra-ceen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/fluoreen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "fluoreen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pyreen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "WDECIBYCCFPHNR-UHFFFAOYSA-N";
-  skos:prefLabel "pyreen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/acenaftyleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "acenaftyleen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/dibenzo(a,h)an-traceen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "NIHNNTQXNPWCJQ-UHFFFAOYSA-N";
-  skos:prefLabel "dibenzo(a,h)an-traceen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/parathion-ethyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "BBEAQIROQSPTKN-UHFFFAOYSA-N";
-  skos:prefLabel "parathion-ethyl"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/parathion-methyl>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "HXGDTGSAIMULJN-UHFFFAOYSA-N";
-  skos:prefLabel "parathion-methyl"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB28>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "PCB28"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB52>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "PCB52"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB101>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "PCB101"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB118>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "BZTYNSQSZHARAZ-UHFFFAOYSA-N";
-  skos:prefLabel "PCB118"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB138>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "HCWZEPKLWVAEOV-UHFFFAOYSA-N";
-  skos:prefLabel "PCB138"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB153>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "LAHWLEDBADHJGA-UHFFFAOYSA-N";
-  skos:prefLabel "PCB153"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/PCB180>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "IUTPYMGCWINGEY-UHFFFAOYSA-N";
-  skos:prefLabel "PCB180"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pentachloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "RPUMZMSNLZHIGZ-UHFFFAOYSA-N";
-  skos:prefLabel "pentachloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/perfluoroctaansul-fonzuurEnZijnDerivaten>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "MVWHGTYKUMDIHL-UHFFFAOYSA-N";
-  skos:prefLabel "perfluoroctaansul-fonzuurEnZijnDerivaten"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/quinoxyfen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "WBHQEUPUMONIKF-UHFFFAOYSA-N";
-  skos:prefLabel "quinoxyfen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/foxim>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "foxim"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/propanil>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "propanil"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloridazo>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloridazo"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/simazine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "simazine"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/(2,4,5-trichloorfenoxy)-azijnzuur>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "(2,4,5-trichloorfenoxy)-azijnzuur"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tetrabutyltin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "tetrabutyltin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,4,5-tetrachloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "ODCWYMIRDDJXKW-UHFFFAOYSA-N";
-  skos:prefLabel "1,2,4,5-tetrachloorbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2,2-tetrachloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,1,2,2-tetrachloorethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/terbutryn>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "terbutryn"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tetrachlooretheen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "tetrachlooretheen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tolueen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "QPFMBZIOSGYJDE-UHFFFAOYSA-N";
-  skos:prefLabel "tolueen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/triazofos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "IROINLKCQGIITA-UHFFFAOYSA-N";
-  skos:prefLabel "triazofos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tri-n-butylfosfaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "CYTYCFOTNPOANT-UHFFFAOYSA-N";
-  skos:prefLabel "tri-n-butylfosfaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/tributyltin>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "YXFVVABEGXRONW-UHFFFAOYSA-N";
-  skos:prefLabel "tributyltin"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichloorfon>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trichloorfon"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,3-trichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "1,2,3-trichloorbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,2,4-trichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "OIQCWAIEHVRCCG-UHFFFAOYSA-N";
-  skos:prefLabel "1,2,4-trichloorbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,3,5-trichloorbenzeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "NFACJZMKEDPNKN-UHFFFAOYSA-N";
-  skos:prefLabel "1,3,5-trichloorbenzeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,1-trichloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "RELMFMZEBKVZJC-UHFFFAOYSA-N";
-  skos:prefLabel "1,1,1-trichloorethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2-trichloorethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "PBKONEOXTCPAFI-UHFFFAOYSA-N";
-  skos:prefLabel "1,1,2-trichloorethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trichloorethyleen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "XKEFYDZQGKAQCN-UHFFFAOYSA-N";
-  skos:prefLabel "trichloorethyleen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,5-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "UOCLXMDMGBRAIB-UHFFFAOYSA-N";
-  skos:prefLabel "2,3,5-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,6-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "UBOXGVDOUJQMTN-UHFFFAOYSA-N";
-  skos:prefLabel "2,4,6-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,4,5-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "2,4,5-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,4-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "WWGQHTJIFOQAOC-UHFFFAOYSA-N";
-  skos:prefLabel "2,3,4-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/2,3,6-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "LINPIYWFGCPVIE-UHFFFAOYSA-N";
-  skos:prefLabel "2,3,6-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/3,4,5-trichloorfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "LHJGJYXLEPZJPM-UHFFFAOYSA-N";
-  skos:prefLabel "3,4,5-trichloorfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/1,1,2-trichloortrifluor-ethaan>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "HSQFVBWFPBKHEB-UHFFFAOYSA-N";
-  skos:prefLabel "1,1,2-trichloortrifluor-ethaan"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifluraline>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "XGCHAIDDPMFRLJ-UHFFFAOYSA-N";
-  skos:prefLabel "trifluraline"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinacetaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "GBNHEBQXJVDXSW-UHFFFAOYSA-N";
-  skos:prefLabel "trifenyltinacetaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinchloride>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trifenyltinchloride"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/trifenyltinhydroxide>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trifenyltinhydroxide"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/vinylchloride>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "vinylchloride"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/xylenen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "xylenen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/atrazine>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "atrazine"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/bentazon>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "BZHJMEDXRYGGRV-UHFFFAOYSA-N";
-  skos:prefLabel "bentazon"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/nonylfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "nonylfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/alachloor>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "MXWJVTOOROXGIU-UHFFFAOYSA-N";
-  skos:prefLabel "alachloor"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/C10-13-chlooralkanen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "ZOMSMJKLGFBRBS-UHFFFAOYSA-N";
-  skos:prefLabel "C10-13-chlooralkanen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorfenvinphos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "IGFHQQFPSIBGKE-ZGAVCIBUSA-N";
-  skos:prefLabel "chloorfenvinphos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/chloorpyrifos>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "IGFHQQFPSIBGKE-ZGAVCIBUSA-N";
-  skos:prefLabel "chloorpyrifos"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/di(2-ethylhexyl)-ftalaat>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "IGFHQQFPSIBGKE-ZGAVCIBUSA-N";
-  skos:prefLabel "di(2-ethylhexyl)-ftalaat"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/diuron>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "XCSGPAVHZFQHGE-UHFFFAOYSA-N";
-  skos:prefLabel "diuron"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/gebromeerdeDifenylethers>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "gebromeerdeDifenylethers"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/isoproturon>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "isoproturon"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/octylfenol>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "SBPBAQFWLVIOKP-UHFFFAOYSA-N";
-  skos:prefLabel "octylfenol"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen/pentachloorben-zeen>
-  a skos:Concept;
-  skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStoffen/GevaarlijkeStoffen-OrganischeStoffen>;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "pentachloorben-zeen"@nl .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/diflufenican> a skos:Concept;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "XMTQQYYKAHVGBJ-UHFFFAOYSA-N";
-  skos:prefLabel "diflufenican"@nl;
+  skos:prefLabel "1,1-dichloorethaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorethaan> a skos:Concept;
@@ -1716,41 +659,144 @@
   skos:prefLabel "1,2-dichloorethaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/anthraceen> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1-dichlooretheen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "anthraceen"@nl;
+  skos:notation "SCYULBFZEHDVBN-UHFFFAOYSA-N";
+  skos:prefLabel "1,1-dichlooretheen"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/calciumIon> a skos:Concept;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "calciumIon"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/carbonaat> a skos:Concept;
-  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "carbonaat"@nl;
-  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
-
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibenzo(a,h)anthraceen> a
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichlooretheen,cis> a
     skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "dibenzo(a,h)anthraceen"@nl;
+  skos:prefLabel "1,2-dichlooretheen,cis"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenol> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichlooretheen,trans>
+  a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "fenol"@nl;
+  skos:prefLabel "1,2-dichlooretheen,trans"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/formaldehyde> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloormethaan> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:notation "PUIYMUZLKQOUOZ-UHFFFAOYSA-N";
-  skos:prefLabel "formaldehyde"@nl;
+  skos:notation "YMWUJEATGCHHMB-UHFFFAOYSA-N";
+  skos:prefLabel "dichloormethaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/heptachloor> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloornitrobenze-nen> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "heptachloor"@nl;
+  skos:prefLabel "dichloornitrobenze-nen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4-dichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "HFZWRUODUSTPEG-UHFFFAOYSA-N";
+  skos:prefLabel "2,4-dichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2-dichloorpropaan> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "NKRKFALVUDBJE-UHFFFAOYSA-N";
+  skos:prefLabel "1,2-dichloorpropaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloor-2-propanol> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1,3-dichloor-2-propanol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorpropeen,cis> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1,3-dichloorpropeen,cis"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3-dichloorpropeen,trans>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1,3-dichloorpropeen,trans"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3-dichloorpropeen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "2,3-dichloorpropeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichlorprop> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "dichlorprop"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dicofol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "UOAMTSKGCBMZTC-UHFFFAOYSA-N";
+  skos:prefLabel "dicofol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dichloorvos> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "OEBRKCOSUFCWJD-UHFFFAOYSA-N";
+  skos:prefLabel "dichloorvos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/diethylamine> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "HPNMFZURTQLUMO-UHFFFAOYSA-N";
+  skos:prefLabel "diethylamine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dimethoaat> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "MCWXGJITAZMZEV-UHFFFAOYSA-N";
+  skos:prefLabel "dimethoaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dimethylamine> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "ROSDSFDQCJNGOL-UHFFFAOYSA-N";
+  skos:prefLabel "dimethylamine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/disulfoton> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "DOFZAZXDOSGAJZ-UHFFFAOYSA-N";
+  skos:prefLabel "disulfoton"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/α-endosulfan> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "α-endosulfan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/β-endosulfan> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "β-endosulfan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1-chloor-2,3-epoxypropaan>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1-chloor-2,3-epoxypropaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/ethylbenzeen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "YNQLUTRBYVCPMQ-UHFFFAOYSA-N";
+  skos:prefLabel "ethylbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenitrothion> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "ZNOLGFHPUIJIMJ-UHFFFAOYSA-N";
+  skos:prefLabel "fenitrothion"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenthion> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "PNVJTZOFSHSLTO-UHFFFAOYSA-N";
+  skos:prefLabel "fenthion"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorbenzeen> a skos:Concept;
@@ -1763,62 +809,511 @@
   skos:prefLabel "hexachloorbutadieen"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/hydroxide> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexabroom-cyclododecaan> a
+    skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "hydroxide"@nl;
+  skos:prefLabel "hexabroom-cyclododecaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/magnesium> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/α-hexachloorcyclo-hexaan>
+  a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "magnesium"@nl;
+  skos:prefLabel "α-hexachloorcyclo-hexaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/mangaan> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/β-hexachloorcyclo-hexaan>
+  a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "mangaan"@nl;
+  skos:prefLabel "β-hexachloorcyclo-hexaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/methaan> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/Y-hexachloorcyclo-hexaan>
+  a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "methaan"@nl;
+  skos:prefLabel "Y-hexachloorcyclo-hexaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/natrium> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/σ-hexachloorcyclo-hexaan>
+  a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "natrium"@nl;
+  skos:prefLabel "σ-hexachloorcyclo-hexaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorbenzeen> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/hexachloorethaan> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "pentachloorbenzeen"@nl;
+  skos:prefLabel "hexachloorethaan"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/styreen> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/isopropylbenzeen> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "styreen"@nl;
+  skos:notation "RWGFKTVRMDUZSP-UHFFFAOYSA-N";
+  skos:prefLabel "isopropylbenzeen"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorbenzeen> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/linuron> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trichloorbenzeen"@nl;
+  skos:notation "XKJMBINCVNINCA-UHFFFAOYSA-N";
+  skos:prefLabel "linuron"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorfenolen> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/malathion> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trichloorfenolen"@nl;
+  skos:notation "JXSJBGJIGXNWCI-UHFFFAOYSA-N";
+  skos:prefLabel "malathion"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloormethaan> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/MCPA> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trichloormethaan"@nl;
+  skos:prefLabel "MCPA"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifluralin> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/mecoprop> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "trifluralin"@nl;
+  skos:prefLabel "mecoprop"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStoffen/VOX> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/methamidofos> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "VOX"@nl;
+  skos:prefLabel "methamidofos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/mevinfos> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "mevinfos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/monolinuron> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "LKJPSUCKSLORMF-UHFFFAOYSA-N";
+  skos:prefLabel "monolinuron"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/omethoaat> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "PZXOQEXFMJCDPG-UHFFFAOYSA-N";
+  skos:prefLabel "omethoaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/oxydemeton-methyl> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "oxydemeton-methyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(a)pyreen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "FMMWHPNWAFZXNH-UHFFFAOYSA-N";
+  skos:prefLabel "benzo(a)pyreen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(b)fluoran-teen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "benzo(b)fluoran-teen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(k)fluoran-teen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "benzo(k)fluoran-teen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(g,h,i)pery-leen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "benzo(g,h,i)pery-leen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/indeno(1,2,3-cd)pyreen> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "SXQBHARYMNFBPS-UHFFFAOYSA-N";
+  skos:prefLabel "indeno(1,2,3-cd)pyreen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fluoranteen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "GVEPBJHOBDJJJI-UHFFFAOYSA-N";
+  skos:prefLabel "fluoranteen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/antraceen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "MWPLVEDNUUSJAV-UHFFFAOYSA-N";
+  skos:prefLabel "antraceen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/naftaleen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "UFWIBTONFRDIAS-UHFFFAOYSA-N";
+  skos:prefLabel "naftaleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fenantreen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "YNPNZTXNASCQKK-UHFFFAOYSA-N";
+  skos:prefLabel "fenantreen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/acenafteen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "acenafteen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chryseen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "WDECIBYCCFPHNR-UHFFFAOYSA-N";
+  skos:prefLabel "chryseen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/benzo(a)antra-ceen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "benzo(a)antra-ceen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/fluoreen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "NIHNNTQXNPWCJQ-UHFFFAOYSA-N";
+  skos:prefLabel "fluoreen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/pyreen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "BBEAQIROQSPTKN-UHFFFAOYSA-N";
+  skos:prefLabel "pyreen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/acenaftyleen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "HXGDTGSAIMULJN-UHFFFAOYSA-N";
+  skos:prefLabel "acenaftyleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/dibenzo(a,h)an-traceen> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "dibenzo(a,h)an-traceen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/parathion-ethyl> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "parathion-ethyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/parathion-methyl> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "parathion-methyl"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-28> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "BZTYNSQSZHARAZ-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-28"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-52> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "HCWZEPKLWVAEOV-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-52"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-101> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "LAHWLEDBADHJGA-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-101"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-118> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "IUTPYMGCWINGEY-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-118"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-138> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "RPUMZMSNLZHIGZ-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-138"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-153> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "MVWHGTYKUMDIHL-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-153"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/PCB-180> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "WBHQEUPUMONIKF-UHFFFAOYSA-N";
+  skos:prefLabel "PCB-180"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "pentachloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/quinoxyfen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "quinoxyfen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/foxim> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "foxim"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/propanil> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "propanil"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloridazon> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "chloridazon"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/simazine> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "ODCWYMIRDDJXKW-UHFFFAOYSA-N";
+  skos:prefLabel "simazine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/(2,4,5-trichloorfenoxy)-azijnzuur>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "(2,4,5-trichloorfenoxy)-azijnzuur"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tetrabutyltin> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "tetrabutyltin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,4,5-tetrachloorbenzeen>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1,2,4,5-tetrachloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2,2-tetrachloorethaan>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "QPFMBZIOSGYJDE-UHFFFAOYSA-N";
+  skos:prefLabel "1,1,2,2-tetrachloorethaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/terbutryn> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "IROINLKCQGIITA-UHFFFAOYSA-N";
+  skos:prefLabel "terbutryn"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tetrachlooretheen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "CYTYCFOTNPOANT-UHFFFAOYSA-N";
+  skos:prefLabel "tetrachlooretheen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tolueen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "YXFVVABEGXRONW-UHFFFAOYSA-N";
+  skos:prefLabel "tolueen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/triazofos> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "triazofos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tri-n-butylfosfaat> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "tri-n-butylfosfaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/tributyltin> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "OIQCWAIEHVRCCG-UHFFFAOYSA-N";
+  skos:prefLabel "tributyltin"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorfon> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "NFACJZMKEDPNKN-UHFFFAOYSA-N";
+  skos:prefLabel "trichloorfon"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,3-trichloorbenzeen> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "RELMFMZEBKVZJC-UHFFFAOYSA-N";
+  skos:prefLabel "1,2,3-trichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,2,4-trichloorbenzeen> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "PBKONEOXTCPAFI-UHFFFAOYSA-N";
+  skos:prefLabel "1,2,4-trichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,3,5-trichloorbenzeen> a
+    skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "XKEFYDZQGKAQCN-UHFFFAOYSA-N";
+  skos:prefLabel "1,3,5-trichloorbenzeen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,1-trichloorethaan> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "UOCLXMDMGBRAIB-UHFFFAOYSA-N";
+  skos:prefLabel "1,1,1-trichloorethaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2-trichloorethaan> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "UBOXGVDOUJQMTN-UHFFFAOYSA-N";
+  skos:prefLabel "1,1,2-trichloorethaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trichloorethyleen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "trichloorethyleen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,5-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "WWGQHTJIFOQAOC-UHFFFAOYSA-N";
+  skos:prefLabel "2,3,5-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,6-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "LINPIYWFGCPVIE-UHFFFAOYSA-N";
+  skos:prefLabel "2,4,6-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,4,5-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "LHJGJYXLEPZJPM-UHFFFAOYSA-N";
+  skos:prefLabel "2,4,5-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,4-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "HSQFVBWFPBKHEB-UHFFFAOYSA-N";
+  skos:prefLabel "2,3,4-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/2,3,6-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "XGCHAIDDPMFRLJ-UHFFFAOYSA-N";
+  skos:prefLabel "2,3,6-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/3,4,5-trichloorfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "GBNHEBQXJVDXSW-UHFFFAOYSA-N";
+  skos:prefLabel "3,4,5-trichloorfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/1,1,2-trichloortrifluor-ethaan>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "1,1,2-trichloortrifluor-ethaan"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifluraline> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "trifluraline"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinacetaat> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "trifenyltinacetaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinchloride> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "trifenyltinchloride"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/trifenyltinhydroxide> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "trifenyltinhydroxide"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/vinylchloride> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "BZHJMEDXRYGGRV-UHFFFAOYSA-N";
+  skos:prefLabel "vinylchloride"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/xylenen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "xylenen"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/atrazine> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "MXWJVTOOROXGIU-UHFFFAOYSA-N";
+  skos:prefLabel "atrazine"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/bentazon> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "ZOMSMJKLGFBRBS-UHFFFAOYSA-N";
+  skos:prefLabel "bentazon"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/nonylfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "IGFHQQFPSIBGKE-ZGAVCIBUSA-N";
+  skos:prefLabel "nonylfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/alachloor> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "XCSGPAVHZFQHGE-UHFFFAOYSA-N";
+  skos:prefLabel "alachloor"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorfenvinphos> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "chloorfenvinphos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/chloorpyrifos> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "SBPBAQFWLVIOKP-UHFFFAOYSA-N";
+  skos:prefLabel "chloorpyrifos"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/di(2-ethylhexyl)-ftalaat>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "di(2-ethylhexyl)-ftalaat"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/diuron> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "XMTQQYYKAHVGBJ-UHFFFAOYSA-N";
+  skos:prefLabel "diuron"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/gebromeerdeDifenylethers>
+  a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "gebromeerdeDifenylethers"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/isoproturon> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:notation "PUIYMUZLKQOUOZ-UHFFFAOYSA-N";
+  skos:prefLabel "isoproturon"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/octylfenol> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "octylfenol"@nl;
+  skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
+
+<https://data.vlaanderen.be/id/concept/ChemischeStoffen/pentachloorben-zeen> a skos:Concept;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
+  skos:prefLabel "pentachloorben-zeen"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen> .
