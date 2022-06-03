@@ -394,11 +394,11 @@
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloorfenvinphos>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloornitrotoluenen>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloorpyrifos>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere\u0020dan\u00202-chloor-para-toluïdine)>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloridazo>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloroform>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chryseen>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaan\u0020trans-chloordaan>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaanTrans-chloordaan>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cumafos>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cybutryne>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cypermethrin>,
@@ -431,7 +431,7 @@
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/fluoreen>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/foxim>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/gebromeerdeDifenylethers>,
-    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/heptachloor\u0020en\u0020heptachloorepoxide>,
+    <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/heptachloorEnHeptachloorepoxide>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/hexabroom-cyclododecaan>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbenzeen>,
     <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/hexachloorbutadieen>,
@@ -615,11 +615,11 @@
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
   skos:prefLabel "trichlooracetal-dehyde-hydraat"@nl .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaan\u0020trans-chloordaan>
+<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cis-chloordaanTrans-chloordaan>
   a skos:Concept;
   skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "cis-chloordaan trans-chloordaan"@nl .
+  skos:prefLabel "cis-chloordaanTrans-chloordaan"@nl .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloorazijnzuur>
   a skos:Concept;
@@ -780,11 +780,11 @@
   skos:notation "IBSQPLPBRSHTTG-UHFFFAOYSA-N";
   skos:prefLabel "2-chloor-para-toluïdine"@nl .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere\u0020dan\u00202-chloor-para-toluïdine)>
+<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)>
   a skos:Concept;
   skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "chloortoluïdinen(andere dan 2-chloor-para-toluïdine)"@nl .
+  skos:prefLabel "chloortoluïdinen(andere-dan-2-chloor-para-toluïdine)"@nl .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/cumafos>
   a skos:Concept;
@@ -1111,11 +1111,11 @@
   skos:notation "PNVJTZOFSHSLTO-UHFFFAOYSA-N";
   skos:prefLabel "hexabroom-cyclododecaan"@nl .
 
-<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/heptachloor\u0020en\u0020heptachloorepoxide>
+<https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/heptachloorEnHeptachloorepoxide>
   a skos:Concept;
   skos:broader <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ChemischeStoffen>;
-  skos:prefLabel "heptachloor en heptachloorepoxide"@nl .
+  skos:prefLabel "heptachloorEnHeptachloorepoxide"@nl .
 
 <https://data.vlaanderen.be/id/concept/ChemischeStof/GevaarlijkeStoffen-OrganischeStoffen/α-hexachloorcyclo-hexaan>
   a skos:Concept;
