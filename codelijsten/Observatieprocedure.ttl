@@ -17,7 +17,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Observatieprocedure> a skos:ConceptScheme;
-  skos:definition "Een workflow, protocol, plan, algoritme of rekenkundige methode die specifieerd hoe een observatie gemaakt zou moeten worden, hoe je een monster moet nemen, of hoe je een verandering aan de wereld moet maken (via een aandrijving). Een procedure is herbruikbaar en kan betrokken worden bij meerdere observaties, bemonsteringen of aandrijvingen. Het legt de stappen uit die genomen dienen te worden om een waardevol resultaat te bekomen."@nl;
+  skos:definition "Verwijzing naar het Proces waarmee het resultaat van een Observatie is bekomen."@nl;
   skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Kenmerktype/Observatieprocedure>;
   skos:prefLabel "Observatieprocedure"@nl .
 
