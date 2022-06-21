@@ -9,7 +9,7 @@
 <https://data.vlaanderen.be/id/concept/Matrix> a skos:Concept;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Matrix>;
   skos:narrower <https://data.vlaanderen.be/id/concept/Matrix/Afvalwater>, <https://data.vlaanderen.be/id/concept/Matrix/Grondwater>,
-    <https://data.vlaanderen.be/id/concept/Matrix/Oppervlaktewater>, <https://data.vlaanderen.be/id/concept/Matrix/Waterbodem>;
+    <https://data.vlaanderen.be/id/concept/Matrix/Oppervlaktewater>, <https://data.vlaanderen.be/id/concept/Matrix/Waterbodem>, <https://data.vlaanderen.be/id/concept/Matrix/Drinkwater>, <https://data.vlaanderen.be/id/concept/Matrix/Lucht>, <https://data.vlaanderen.be/id/concept/Matrix/Bodem>;
   skos:prefLabel "Matrix"@nl;
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Matrix> .
 
@@ -33,3 +33,17 @@
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Matrix>;
   skos:prefLabel "Waterbodem"@nl .
 
+<https://data.vlaanderen.be/id/concept/Matrix/Drinkwater> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Matrix>;
+  skos:prefLabel "Drinkwater"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Lucht> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Matrix>;
+  skos:prefLabel "Lucht"@nl .
+
+<https://data.vlaanderen.be/id/concept/Matrix/Bodem> a skos:Concept;
+  skos:broader <https://data.vlaanderen.be/id/concept/Matrix>;
+  skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Matrix>;
+  skos:prefLabel "Bodem"@nl .
