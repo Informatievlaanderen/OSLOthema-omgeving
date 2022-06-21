@@ -17,33 +17,33 @@
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/FugitieveEmissie> a skos:Concept;
     skos:prefLabel "Fugitieve emissie" ;
     skos:definition "De emissie van vluchtige organische stoffen (exclusief methaan) door lekverliezen van apparaten en leiding (onderdelen)." ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/AbnormaleEmissie> a skos:Concept;
     skos:prefLabel "Abnormale emissie" ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/AndereNietGeleideEmissie> a skos:Concept;
     skos:prefLabel "Andere niet-geleide emissie" ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/DoorzetEmissie> a skos:Concept;
     skos:prefLabel "Doorzet emissie" ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/Lekverliezen> a skos:Concept;
     skos:prefLabel "Lekverliezen" ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
 
-<https://data.vlaanderen.be/id/concept/Emissietype/Geleid> a skos:Concept;
+<https://data.vlaanderen.be/id/concept/Emissietype/FakkelEmissie> a skos:Concept;
     skos:prefLabel "Fakkelemissie" ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Emissietype> ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Emissietype> .
