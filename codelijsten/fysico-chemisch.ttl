@@ -74,14 +74,6 @@ cf:0064  a                 skos:Concept ;
         dcat:theme         gemet:15242 ;
         cs:vmmParameterId  "1266"^^xsd:int .
 
-cf:0036  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "Water" ;
-        skos:prefLabel     "Watergehalte"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15214 ;
-        cs:vmmParameterId  "112"^^xsd:int .
-
 cf:0008  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "DR180" ;
@@ -117,7 +109,7 @@ cf:0102  a                 skos:Concept ;
 cf:0115  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "ZS rendement" ;
-        skos:prefLabel     "rendement ZS tov influentbelasting"@nl ;
+        skos:prefLabel     "Rendement ZS ten opzichte van influentbelasting"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1671"^^xsd:int .
@@ -129,14 +121,6 @@ cf:0030  a                 skos:Concept ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15208 ;
         cs:vmmParameterId  "106"^^xsd:int .
-
-cf:0002  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "OB" ;
-        skos:prefLabel     "Onbekend"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15180 ;
-        cs:vmmParameterId  "-2"^^xsd:int .
 
 cf:0071  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
@@ -165,7 +149,7 @@ cf:0015  a                 skos:Concept ;
 cf:0084  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "BZV5 rendement" ;
-        skos:prefLabel     "rendement BZV5 tov influentbelasting"@nl ;
+        skos:prefLabel     "Rendement BZV5 ten opzichte van influentbelasting"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15262 ;
         cs:vmmParameterId  "1669"^^xsd:int .
@@ -330,14 +314,6 @@ cf:0014  a                 skos:Concept ;
         dcat:theme         gemet:15192 ;
         cs:vmmParameterId  "87"^^xsd:int .
 
-cf:0083  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "NH3-N" ;
-        skos:prefLabel     "niet te gebruiken"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15261 ;
-        cs:vmmParameterId  "1667"^^xsd:int .
-
 cf:0055  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Gran>2<63" ;
@@ -401,14 +377,6 @@ cf:0062  a                 skos:Concept ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15240 ;
         cs:vmmParameterId  "1263"^^xsd:int .
-
-cf:0034  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "VP" ;
-        skos:prefLabel     "Vlampunt"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15212 ;
-        cs:vmmParameterId  "110"^^xsd:int .
 
 cf:0006  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
@@ -530,14 +498,6 @@ cf:0039  a                 skos:Concept ;
         dcat:theme         gemet:15217 ;
         cs:vmmParameterId  "287"^^xsd:int .
 
-cf:0105  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "MUCd-EC 20" ;
-        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15283 ;
-        cs:vmmParameterId  "2088"^^xsd:int .
-
 cf:0020  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Gran<2" ;
@@ -597,7 +557,7 @@ cf:0018  a                 skos:Concept ;
 cf:0087  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Fol h2o_vlucht" ;
-        skos:prefLabel     "met waterdamp vluchtige fenolen"@nl ;
+        skos:prefLabel     "Met waterdamp vluchtige fenolen"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15265 ;
         cs:vmmParameterId  "1683"^^xsd:int .
@@ -694,14 +654,6 @@ cf:0079  a                 skos:Concept ;
         dcat:theme         gemet:15257 ;
         cs:vmmParameterId  "1327"^^xsd:int .
 
-cf:0104  a                 skos:Concept ;
-        skos:inScheme      vlcs:fysico-chemisch ;
-        skos:notation      "MUC-EC 20" ;
-        skos:prefLabel     "Geleidbaarheid (20°C), MUC project"@nl ;
-        skos:topConceptOf  vlcs:fysico-chemisch ;
-        dcat:theme         gemet:15282 ;
-        cs:vmmParameterId  "2087"^^xsd:int .
-
 cf:0060  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "Gran<8" ;
@@ -753,7 +705,7 @@ cf:0017  a                 skos:Concept ;
 cf:0086  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "N t rendement" ;
-        skos:prefLabel     "rendement N t tov influentbelasting"@nl ;
+        skos:prefLabel     "Rendement N t ten opzichte van influentbelasting"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15264 ;
         cs:vmmParameterId  "1672"^^xsd:int .
@@ -917,7 +869,7 @@ cf:0016  a                 skos:Concept ;
 cf:0085  a                 skos:Concept ;
         skos:inScheme      vlcs:fysico-chemisch ;
         skos:notation      "CZV rendement" ;
-        skos:prefLabel     "rendement CZV tov influentbelasting"@nl ;
+        skos:prefLabel     "Rendement CZV ten opzichte van influentbelasting"@nl ;
         skos:topConceptOf  vlcs:fysico-chemisch ;
         dcat:theme         gemet:15263 ;
         cs:vmmParameterId  "1670"^^xsd:int .
