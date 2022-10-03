@@ -67,13 +67,6 @@ css:c18:1dadma  a          skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1148"^^xsd:int .
 
-css:muc-fe_o  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Ijzer, opgelost, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2071"^^xsd:int .
-
 css:pak_4  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Polyaromatische koolwaterstoffen (PAK's)"@nl ;
@@ -108,13 +101,6 @@ css:alif__ox  a            skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1684"^^xsd:int .
-
-css:mucd-fe_t  a           skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Ijzer, totaal, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2075"^^xsd:int .
 
 css:cs_mo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -406,13 +392,6 @@ css:c14admba  a            skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1123"^^xsd:int .
-
-css:mucd-fe_o  a           skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Ijzer, opgelost, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2076"^^xsd:int .
 
 css:au_mt  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -788,13 +767,6 @@ css:xyl__eybz  a           skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1738"^^xsd:int .
 
-css:ctol  a                skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Chloortolueen"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1752"^^xsd:int .
-
 css:ga_mo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Gallium, multi opgelost"@nl ;
@@ -937,13 +909,6 @@ css:bde_t_6  a             skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1388"^^xsd:int .
 
-css:nse  a                 skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Aantal systematische eenheden"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "115"^^xsd:int .
-
 css:aeo_c14_vertakt  a     skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Alkylethoxylaat C14 vertakt"@nl ;
@@ -1078,13 +1043,6 @@ css:xnmvos_t  a            skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1170"^^xsd:int .
 
-css:vs  a                  skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Vluchtige stof"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "111"^^xsd:int .
-
 css:c18isoquin  a          skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Octadecylisoquinolinium"@nl ;
@@ -1098,13 +1056,6 @@ css:si_mo  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "2040"^^xsd:int .
-
-css:c12peo  a              skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Dodecylfenolpolyethoxylaat"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1193"^^xsd:int .
 
 css:kws_nm  a              skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -1137,20 +1088,6 @@ css:tcee__dcee_tcea  a     skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1758"^^xsd:int .
-
-css:vet  a                 skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Vetgehalte"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1518"^^xsd:int .
-
-css:p_t_-_opo4  a          skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "P totaal andere dan orthofosfaat"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1785"^^xsd:int .
 
 css:fol_h2o_vlucht  a      skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -1454,27 +1391,12 @@ css:c16isoquin  a          skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1139"^^xsd:int .
 
-css:mucd-npoc  a           skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Org.koolstof,n-purgeerbaar,MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2073"^^xsd:int .
-
 css:d15n  a                skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Isotopenverhouding stikstof 15 en 14"@nl ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1327"^^xsd:int .
-
-css:som_metalen_lijst2
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Som metalen lijst2"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1693"^^xsd:int .
 
 css:c16eo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -1645,13 +1567,6 @@ css:os_mt  a               skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1954"^^xsd:int .
 
-css:hfpo-da  a             skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "2,3,3,3tetrafluor-2(heptafluoropropoxy)propaanzuur"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2098"^^xsd:int .
-
 css:pcdbfur_t  a           skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Pentachloordibenzofuran, totaal"@nl ;
@@ -1703,7 +1618,7 @@ css:oyfol_et  a            skos:Concept ;
 
 css:nvooc  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Organische koolstof, niet vluchtig opgel."@nl ;
+        skos:prefLabel     "Organische koolstof, niet vluchtig"@nl ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "726"^^xsd:int .
@@ -1805,13 +1720,6 @@ css:pct_t  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "513"^^xsd:int .
-
-css:muc-n_t  a             skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Stikstof, totaal, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2069"^^xsd:int .
 
 css:nisurfsom  a           skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -1960,13 +1868,6 @@ css:os_mo  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "2027"^^xsd:int .
-
-css:muc-npoc  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Org.koolstof,n-purgeerbaar,MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2068"^^xsd:int .
 
 css:om  a                  skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -2149,13 +2050,6 @@ css:vocl_i  a              skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1747"^^xsd:int .
-
-css:mucd-n_t  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Stikstof, totaal, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2074"^^xsd:int .
 
 css:bjflu_bep  a           skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -2402,13 +2296,6 @@ css:sof  a                 skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1739"^^xsd:int .
 
-css:ufp  a                 skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Ultrafijn deeltjesaantal 10-100 nm"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2085"^^xsd:int .
-
 css:br-_i-  a              skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Bromide + Iodide"@nl ;
@@ -2472,13 +2359,6 @@ css:vox  a                 skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "892"^^xsd:int .
 
-css:n_t_vito  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Stikstof, totaal VITO"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1525"^^xsd:int .
-
 css:c13eo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Tridecanolpolyethoxylaat"@nl ;
@@ -2528,13 +2408,6 @@ css:dy_mt  a               skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1932"^^xsd:int .
 
-css:diepte  a              skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Bemonsteringsdiepte"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1290"^^xsd:int .
-
 css:apeo_c17  a            skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Alkylfenolethoxylaat C17"@nl ;
@@ -2555,13 +2428,6 @@ css:be_mo  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1995"^^xsd:int .
-
-css:gamma  a               skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Radioactiviteit, gamma"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "449"^^xsd:int .
 
 css:rb_mo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -2586,7 +2452,7 @@ css:na_mo  a               skos:Concept ;
 
 css:pcb_28_31  a           skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "2,4,4' en 2,4',5-Trichloorbifenyl (PCB28+31)"@nl ;
+        skos:prefLabel     "2,4,4' + 2,4',5-Trichloorbifenyl (PCB28+31)"@nl ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "745"^^xsd:int .
@@ -2691,7 +2557,7 @@ css:hpcdbd_t  a            skos:Concept ;
 
 css:tox___pver_o  a        skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Som v totale Organofosfor en organohalogeenverbind"@nl ;
+        skos:prefLabel     "Som van totale Organofosfor en organohalogeenverbinding"@nl ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1701"^^xsd:int .
@@ -2829,13 +2695,6 @@ css:apeo_c12  a            skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1829"^^xsd:int .
 
-css:olvt  a                skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Oliën & vetten"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "504"^^xsd:int .
-
 css:bflu_som  a            skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "PAK Benzo(b+k)fluorantheen (b)"@nl ;
@@ -2871,13 +2730,6 @@ css:n_o  a                 skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "653"^^xsd:int .
 
-css:zwarte_rook  a         skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Zwarte rook"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1283"^^xsd:int .
-
 css:cr_zn_mn_cu  a         skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "Som van 4 metalen totaal Cr, Zn, Mn en Cu"@nl ;
@@ -2898,13 +2750,6 @@ css:er_mt  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1933"^^xsd:int .
-
-css:metalen  a             skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Metalen screening"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1799"^^xsd:int .
 
 css:c15eo  a               skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -2983,13 +2828,6 @@ css:7_metalen_totaal  a    skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1769"^^xsd:int .
 
-css:muc-cl-  a             skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Chloride, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2067"^^xsd:int .
-
 css:arom_kws__mak___pak
         a                  skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -3018,14 +2856,6 @@ css:adeidrin  a            skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "996"^^xsd:int .
-
-css:10_metalen_totaal
-        a                  skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "som (Cd,Hg,Cu,Zn,Pb,Cr,Ni,As,Se,Ba) totaal"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "1751"^^xsd:int .
 
 css:c18admba  a            skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
@@ -3279,13 +3109,6 @@ css:b_rer96_lc  a          skos:Concept ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "55"^^xsd:int .
 
-css:muc-fe_t  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Ijzer, totaal, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2070"^^xsd:int .
-
 css:dcpa  a                skos:Concept ;
         skos:inScheme      vlcs:sommatie_stoffen ;
         skos:prefLabel     "dichloorpropaan"@nl ;
@@ -3335,13 +3158,6 @@ css:mg_mt  a               skos:Concept ;
         skos:topConceptOf  vlcs:sommatie_stoffen ;
         dcat:theme         gemet:15179 ;
         cs:vmmParameterId  "1946"^^xsd:int .
-
-css:mucd-cl-  a            skos:Concept ;
-        skos:inScheme      vlcs:sommatie_stoffen ;
-        skos:prefLabel     "Chloride, MUC project"@nl ;
-        skos:topConceptOf  vlcs:sommatie_stoffen ;
-        dcat:theme         gemet:15179 ;
-        cs:vmmParameterId  "2072"^^xsd:int .
 
 css:dmyfol_eyfol_2ipyfol
         a                  skos:Concept ;
