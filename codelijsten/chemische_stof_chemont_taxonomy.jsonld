@@ -1,0 +1,4852 @@
+{
+  "@graph" : [ {
+    "@id" : "csc:CHEMONTID_0000000",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000000",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds that contain at least one carbon atom, excluding isocyanide/cyanide and their non-hydrocarbyl derivatives, thiophosgene, carbon diselenide, carbon monosulfide, carbon disulfide, carbon subsulfide, carbon monoxide, carbon dioxide, Carbon suboxide, and dicarbon monoxide."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000000",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic compounds"
+    },
+    "topConceptOf" : "vlcs:chemische_stof"
+  }, {
+    "@id" : "csc:CHEMONTID_0000002",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000002",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a ring with least one carbon atom and one non-carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000002",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organoheterocyclic compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000004",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000004",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a carbon-sulfur bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000004",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000014",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000014",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylbutylamine moiety, which consists of a phenyl group substituted at the fourth carbon by an butan-1-amine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000014",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylbutylamines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000015",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000015",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dibenzofuran moiety, which consists of two benzene rings fused to a central furan ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000015",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dibenzofurans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000018",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000018",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a system of three linearly fused benzene rings."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000018",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anthracenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000019",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000019",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dibenzocycloheptene moiety, which consists of two benzene rings connected by a cycloheptene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000019",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dibenzocycloheptenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000020",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000020",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a fluorene moiety, which consists of two benzene rings connected through either a cyclopentane, cyclopentene, or cyclopenta-1,3-diene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000020",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fluorenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000021",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000021",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an indene moiety(which consists of a cyclopentadiene fused to a benzene ring), or a isoindene moiety (which consists of a cyclopentadiene fused to cyclohexadiene ring)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000021",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Indenes and isoindenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000023",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000023",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a naphthalene moiety, which consists of two fused benzene rings."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000023",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Naphthalenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000025",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000025",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic compounds containing a phenanthrene moiety, which is a tricyclic aromatic compound with three non-linearly fused benzene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000025",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenanthrenes and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000027",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000027",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an indane moiety, which consists of a cyclopentane fused to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000027",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Indanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000029",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000029",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic aromatic compounds containing a cinnamlaldehyde moiety, consisting of a benzene and an aldehyde group to form 3-phenylprop-2-enal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000029",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cinnamaldehydes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000031",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000031",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a sulfonamide group that is S-linked to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000031",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzenesulfonamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000032",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000032",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a sulfonic acid or a derivative thereof that is linked to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000032",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzenesulfonic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000033",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000033",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the phenylmethanol substructure."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000033",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzyl alcohols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000036",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000036",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a nitrobenzene moiety, which consists of a benzene ring with a carbon bearing a nitro group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000036",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitrobenzenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000037",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000037",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an ethenylbenzene moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000037",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Styrenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000038",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000038",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic aromatic compounds containing a sulfanilide moiety, with the general structure RS(=O)(=O)NC1=CC=CC=C1."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000038",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfanilides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000041",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000041",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing to benzene rings linked together by a C-C bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000041",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Biphenyls and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000045",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000045",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylpropene moiety, which consists of a propene substituent bound to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000045",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpropenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000047",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000047",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Tetralin lignans in which the benzene moiety of the tetralin skeleton is fused to a 1,3-dioxolane and the cyclohexane is fused to a butyrolactone (pyrrolidin-2-one)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000047",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Podophyllotoxins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000048",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000048",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a tetralin moiety, which consists of a benzene fused to a cyclohexane."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000048",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tetralins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000049",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000049",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a tametraline moiety, which consists of a tetrahydronaphthalene linked to a phenyl group to form N-methyl-4-phenyl-1,2,3,4-tetrahydronaphthalen-1-amine skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000049",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tametralines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000050",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000050",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic esters of hydroxy carboxylic acids, containing a 1-oxacycloalkan-2-one structure, or analogues having unsaturation or heteroatoms replacing one or more carbon atoms of the ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000050",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Lactones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000055",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000055",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dibenzothiazepine moiety, which consists of two benzene connected by a thiazepine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000055",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dibenzothiazepines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000058",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000058",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic compounds with a four-ring skeleton with three condensed six-member rings forming a partially hydrogenated phenanthrene moiety, one of which is aromatic while the two others are alicyclic."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000058",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Morphinans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000064",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000064",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic amides of amino carboxylic acids, having a 1-azacycloalkan-2-one structure, or analogues having unsaturation or heteroatoms replacing one or more carbon atoms of the ring.  They are nitrogen analogues (the a nitrogen atom replacing the o atom of the cyclic carboxylic acid group ) of the naturally occurring macrolides."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000064",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Macrolactams"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000067",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000067",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrazine ring, which is a six-member aromatic heterocycle, that consists of two nitrogen atoms (at positions 1 and 4) and four carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000067",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000072",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000072",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dibenzodiazepine moiety, which consists of two benzene connected by diazepine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000072",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dibenzodiazepines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000079",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000079",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an imidazoline ring, which is an unsaturated ring (derived from imidazole) with two nitrogen atoms at positions 1 and 3 respectively, and containing only one CN double bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000079",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Imidazolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000081",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000081",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic organic compounds containing an isoxazole moiety, with a structure characterized by a five-member aromatic ring with one oxygen atom and one nitrogen atom at ring positions 1 and 2, respectively."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000081",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isoxazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000087",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000087",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrazole ring, which is a five-member aromatic ring with two nitrogen atoms (at positions 1 and 2) and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000087",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000089",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000089",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyridine ring, which is a six-member aromatic heterocycle which consists of one nitrogen atom and five carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000089",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyridines and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000093",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000093",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic organic compounds containing a thiadiazole ring, which is a five-membered aromatic heterocycle made up of one sulfur atom and two nitrogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000093",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiadiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000095",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000095",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a five-member aromatic ring made up of one sulfur atom, one nitrogen, and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000095",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000099",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000099",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing  a five-member aromatic ring of two carbon atoms and three nitrogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000099",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000103",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000103",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a saturated three-member heterocycle with one amino group and two methylene groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000103",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aziridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000113",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000113",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylhydrazide moiety, which consists of a hydrazide substituent attached to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000113",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylhydrazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000120",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000120",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a ketone attached to two phenyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000120",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzophenones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000130",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000130",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a spirodecane moiety with at least one nitrogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000130",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Azaspirodecane derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000132",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000132",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing the enol functional group, with the structure HO(R)C=CR'. Ketones that have one or more alpha-hydrogen atoms undergo keto-enol tautomerization, the tautomer being an enol."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000132",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Enols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000138",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000138",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a methoxybenzene or a derivative thereof."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000138",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anisoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000139",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000139",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a hydroxyethyl group attached to the C4 carbon of a phenol group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000139",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tyrosols and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000141",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000141",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a nitrophenol moiety, which consists of a benzene ring bearing both a hydroxyl group and a nitro group on two different ring carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000141",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitrophenols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000145",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000145",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a 1-benzopyran moiety with a ketone group at the C2 carbon atom (1-benzopyran-2-one)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000145",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Coumarins and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000147",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000147",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a lactone ring of at least twelve members."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000147",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Macrolides and analogues"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000151",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000151",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing either anthracene-9,10-quinone, 1,4-anthraquinone, or 1,2-anthraquinone."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000151",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anthraquinones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000153",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000153",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a naphthohydroquinone moiety, which consists of a benzene ring linearly fused to a bezene-1,4-dione (quinone)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000153",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Naphthoquinones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000159",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000159",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a cyclic ether with three ring atoms(one oxygen and two carbon atoms)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000159",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Epoxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000163",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000163",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic amides of caproic acid. Caproic acid is the carboxylic acid derived from hexane with the general formula C5H11COOH."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000163",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Caprolactams"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000176",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000176",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a carboxylic acid substituent attached to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000176",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000181",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000181",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polyketides having an octahydrotetracene-2-carboxamide skeleton, substituted with many hydroxy and other groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000181",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tetracyclines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000185",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000185",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylmethtylamine moiety, which consists of a phenyl group substituted by an methanamine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000185",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylmethylamines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000186",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000186",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenethylamine moiety, which consists of a phenyl group substituted at the second position by an ethan-1-amine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000186",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenethylamines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000189",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000189",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a piperazine ring, which is a saturated aliphatic six-member heterocyclic with two nitrogen atoms at positions 1 and 4, as well as four carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000189",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Piperazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000190",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000190",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a methoxy group attached to the benzene ring of a phenol moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000190",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Methoxyphenols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000194",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000194",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a furan ring which bears a nitro group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000194",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitrofurans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000210",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000210",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a three ring system containing a pyrrole ring fused on either side to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000210",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Carbazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000211",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000211",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an indole, which is a bicyclic ring system made up of a six-membered benzene ring fused to a five-membered nitrogen-containing pyrrole ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000211",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Indoles and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000218",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000218",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrrolidine ring, which is a five-membered saturated aliphatic heterocycle with one nitrogen atom and four carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000218",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrrolidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000226",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000226",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a five-member saturated aliphatic ring with one nitrogen atom, one sulfur atom, three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000226",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiazolidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000229",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000229",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a five-member unsaturated aliphatic ring with one nitrogen atom, one sulfur atom, three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000229",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiazolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000233",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000233",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing thiolane, a five-member saturated ring containing four carbon atoms and a sulfur atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000233",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiolanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000250",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000250",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an imidazolidine ring, which is a saturated ring (derived from imidazole) with two nitrogen atoms at positions 1 and 3 respectively, and containing only single bonds."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000250",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Imidazolidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000253",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000253",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a 1,2-diphenylethylene moiety. Stilbenes (C6-C2-C6 ) are derived from the common phenylpropene (C6-C3) skeleton building block. The introduction of one or more hydroxyl groups  to a phenyl ring lead to stilbenoids."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000253",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Stilbenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000270",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000270",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a sulfonic acid or derivative, with the general structure RS(=O)2X (R=alkyl, aryl; X=any heteroatom)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000270",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organosulfonic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000284",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000284",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an aminobenzene moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000284",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aniline and substituted anilines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000285",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000285",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic heterocyclic compounds derived from oxoacids RkE(=O)l(OH)m (l not 0) by replacing an OH group by the NHPh group or derivative formed by ring substitution."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000285",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anilides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000294",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000294",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene ring fused to an imidazole ring (five member ring containing a nitrogen atom, 4 carbon atoms, and two double bonds)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000294",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzimidazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000296",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000296",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene ring fused to either isomers of dioxole. Dioxole is a five-membered unsaturated ring of two oxygen atoms and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000296",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzodioxoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000298",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000298",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Long chain aldehydes with a chain of at least 12 carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000298",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fatty aldehydes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000299",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000299",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Hydroxy acids with a 6 to 12 carbon atoms long side chain."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000299",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Medium-chain hydroxy acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000301",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000301",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene ring fused to a furan. Furan is a five-membered aromatic ring with four carbon atoms and one oxygen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000301",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzofurans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000303",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000303",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylpiperidine skeleton, which consists of a piperidine bound to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000303",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpiperidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000307",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000307",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a saturated seven member heterocycle, with one nitrogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000307",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Azepanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000310",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000310",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a phenothiazine moiety, which is a linear tricyclic system that consists of a two benzene rings joined by a para-thiazine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000310",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenothiazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000311",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000311",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to a thiazole ring (a five-membered ring with four carbon atoms, one nitrogen atom and one sulfur atom)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000311",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzothiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000315",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000315",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to a triazole ring (a five-membered ring with two carbon atoms and three nitrogen atoms)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000315",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzotriazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000316",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000316",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to a pyrene(benzo[def]phenanthrene) ring system."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000316",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzopyrenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000317",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000317",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to a thiazepine ring (a seven-membered ring with a nitrogen atom and a sulfur atom replacing two carbon atoms)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000317",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzothiazepines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000320",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000320",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds with two benzene rings connected by an azepine ring. Azepine is an unsaturated seven-member heterocycle with one nitrogen atom replacing a carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000320",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dibenzazepines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000321",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000321",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an acyl moiety of benzoic acid with the formula (C6H5CO-)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000321",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoyl derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000323",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000323",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a bond between a carbon atom and an oxygen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000323",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organooxygen compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000324",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000324",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Carboxylic ester derivatives of a fatty acid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000324",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fatty acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000326",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000326",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing two pyridine rings linked to each other."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000326",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Bipyridines and oligopyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000327",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000327",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing two phosphonate groups linked together through a carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000327",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Bisphosphonates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000330",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000330",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylbenzimidazole skeleton, which consists of a benzimidazole moiety where its imidazole ring is attached to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000330",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylbenzimidazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000331",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000331",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Carboxylic acid amide derivatives of fatty acids, that are formed from a fatty acid and an amine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000331",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fatty amides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000346",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000346",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing exactly two carboxylic acid groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000346",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dicarboxylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000355",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000355",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a prop-2-ylbenzene moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000355",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cumenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000363",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000363",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the cyanate functional group with the formula [OCN]-."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000363",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cyanates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000364",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000364",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds comprising the organic carbonic acid or a derivative thereof."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000364",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic carbonic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000365",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000365",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a cyclohexylsulfamic acid moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000365",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cyclamates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000369",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000369",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a diphenylmethane moiety, which consists of a methane wherein two hydrogen atoms are replaced by two phenyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000369",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Diphenylmethanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000372",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000372",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing the fentanyl moiety or a derivative, which is based on a N-(1-(2-phenylethyl)-4-piperidinyl)-N-phenylpropanamide skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000372",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fentanyls"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000375",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000375",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a guanidine moiety, with the general structure (R1R2N)(R3R4N)C=N-R5."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000375",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Guanidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000392",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000392",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a morpholine moiety, which consists of a six-member aliphatic saturated ring with the formula C4H9NO, where the oxygen and nitrogen atoms lie at positions 1 and 4, respectively."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000392",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Morpholines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000398",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000398",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds having two beta-haloalkyl groups bound to a nitrogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000398",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitrogen mustard compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000399",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000399",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylazide moiety, which consists of a linear azide substituent attached to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000399",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylazides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000408",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000408",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing phosphoric acid ester functional group, with the general structure R1P(=O)(R2)OR3. R1,R2 = O,N,  or halogen atom; R3 = organyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000408",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phosphate esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000410",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000410",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Derivatives of diazene(diimide), HN=NH, wherein both hydrogens are substituted by hydrocarbyl groups, e.g. PhN=NPh azobenzene or diphenyldiazene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000410",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Azo compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000417",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000417",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an anisole where the methane group is linked to an acetic acid or a derivative."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000417",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenoxyacetic acid derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000425",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000425",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a alkali metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000425",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous alkali metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000426",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000426",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a transition metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000426",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous transition metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000427",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000427",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a post-transition metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000427",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous post-transition metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000428",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000428",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a alkaline earth metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000428",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous alkaline earth metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000429",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000429",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms, with the largest atom being a lanthanide atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000429",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous lanthanide compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000430",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000430",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a transition metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000430",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous actinide compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000431",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000431",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing only metal atoms,with the largest atom being a metalloid atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000431",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous metalloid compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000432",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000432",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compounds in which the largest atom is a nobel gas."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000432",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous halogens"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000433",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000433",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compounds in which the largest atom is a halogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000433",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous noble gases"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000434",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000434",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compounds in which the largest atom belongs to the class of 'other nonmetals'."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000434",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homogeneous other non-metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000437",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000437",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing 'other non-metals' and halogen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000437",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Other non-metal halides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000444",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000444",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic halogenic compounds in which the heaviest metal atom is a post-transition metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000444",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Post-transition metal salts"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000491",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000491",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a sulfoxide functional group, with the structure RS(=O)R' (R,R' not H)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000491",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfoxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000501",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000501",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the isocyanic acid tautomer, HN=C=O, of cyanic acid, HOC#N or its hydrocarbyl derivatives RN=C=O."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000501",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isocyanates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000504",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000504",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Derivatives of lineolic acid. Lineolic acid is a polyunsaturated omega-6 18 carbon long fatty acid, with two CC double bonds at the 9- and 12-positions."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000504",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Lineolic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000505",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000505",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a sulfonyl group( which as the general structure RS(=O)2R' (R,R' =alkyl, aryl)) attached to two carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000505",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000510",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000510",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the functional group with the general structure R-CS-NR'R, where R, R', and R are organic groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000510",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thioamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000517",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000517",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing two amine groups joined by a carbonyl (C=O) functional group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000517",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Ureas"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000518",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000518",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a triphenylene moiety, which consists of four fused benzene rings forming a 9,10-benzo[l]phenanthrene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000518",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triphenylenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000522",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000522",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is an actinide."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000522",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Actinide oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000525",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000525",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds of nitrogen where nitrogen has a formal oxidation state of -3, and the heaviest metal atom is an alkali metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000525",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkali metal nitrides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000526",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000526",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is an alkali metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000526",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkali metal oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000530",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000530",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is a post-transition metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000530",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Post-transition metal oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000534",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000534",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is a metalloid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000534",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Metalloid oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000538",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000538",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is a transition metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000538",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Transition metal oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000542",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000542",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is a lanthanide."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000542",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Lanthanide oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000546",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000546",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is an alkaline earth metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000546",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkaline earth metal oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000548",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000548",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the heaviest atom bonded to a hydrogen atom is a halogen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000548",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Halogen hydrides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000549",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000549",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds of nitrogen where nitrogen has a formal oxidation state of -3, and the heaviest atom bonded to it is a halogen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000549",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Halogen nitrides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000550",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000550",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen is a halogen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000550",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Halogen oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000552",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000552",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the heaviest atom bonded to a hydrogen atom is belongs to the class of 'other non-metals'."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000552",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Other non-metal hydrides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000553",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000553",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds of nitrogen where nitrogen has a formal oxidation state of −3, and the heaviest atom bonded to it belongs to the class of 'other non-metals'."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000553",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Other non-metal nitrides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000554",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000554",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing an oxygen atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen belongs to the class of 'other non-metals'."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000554",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Other non-metal oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000555",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000555",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing a sulfur atom of an oxidation state of -2, in which the heaviest atom bonded to the oxygen belongs to the class of other non-metals."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000555",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Other non-metal sulfides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000583",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000583",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest halogen atom is Chlorine, and the heaviest metal atom is a metalloid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000583",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Metalloid chlorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000584",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000584",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest halogen atom is fluorine, and the heaviest metal atom is a metalloid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000584",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Metalloid fluorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000640",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000640",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest oxoanion is hypochlorite, and in which the heaviest atom not in an oxoanion is an alkali metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000640",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkali metal hypochlorites"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000716",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000716",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Large heterocyclic aromatic ring systems consisting, at the core, of three pyrroles and one pyrroline coupled through four methine linkages."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000716",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Chlorins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000756",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000756",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic polycyclic compounds containing an imidazole ring fused to a thiazole ring. Imidazole is 5-membered ring consisting of three carbon atoms, and two nitrogen centers at the 1- and 3-positions. Thiazole is a 6-membered ring that contains both sulfur and nitrogen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000756",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Imidazothiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000895",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000895",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest oxoanion is borate, and in which the heaviest atom not in an oxoanion is an alkali metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000895",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkali metal borates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000901",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000901",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest oxoanion is silicate, and in which the heaviest atom not in an oxoanion is an alkali metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000901",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkali metal silicates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0000921",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0000921",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds in which the largest oxoanion is silicate, and in which the heaviest atom not in an oxoanion is an alkaline earth metal."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0000921",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkaline earth metal silicates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001016",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001016",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Saturated monocyclic hydrocarbons (with or without side chains)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001016",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cycloalkanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001022",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001022",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the functional group -CO-Cl."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001022",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Acyl chlorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001030",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001030",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the acyl chloride functional group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001030",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aryl chlorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001055",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001055",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compounds containing the hydroxide group as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001055",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal hydroxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001057",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001057",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compounds containing a hypochlorite as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001057",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal hypochlorites"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001062",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001062",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compoundscontaining a nitrate as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001062",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal nitrates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001065",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001065",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compoundscontaining a perchlorate as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001065",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal perchlorates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001073",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001073",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compoundscontaining a phosphate as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001073",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal phosphates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001077",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001077",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic non-metallic compoundscontaining a sulfate as its largest oxoanion."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001077",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Non-metal sulfates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001091",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001091",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a benzene ring which bears a methane group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001091",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Toluenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001097",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001097",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a carbonyl group substituted with a benzyloxyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001097",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzyloxycarbonyls"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001114",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001114",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an aldehyde substituted with a keto group on the C3 carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001114",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Beta-keto acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001142",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001142",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing the polyaromatic chrysene moiety, which consists of a benzene ring fused to a phenanthrene ring system to form Benzo[a]phenanthrene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001142",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Chrysenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001151",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001151",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an indane ring bearing a ketone group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001151",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Indanones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001152",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001152",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds having the nitro group, -NO2 (free valence on nitrogen), which may be attached to carbon, nitrogen (as in nitramines), or oxygen (as in nitrates), among other elements (in the absence of specification, C-nitro compounds are usually implied)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001152",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic nitro compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001168",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001168",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds comprising the ketene acetal functional group, with the general structure XC(Y)=C(R3)R4 (R1,R2=H, alkyl, aryl; X,Y=any hetero atom)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001168",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Ketene acetals"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001180",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001180",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the sulfuric acid functional group, with the generic structure HOS(=O)(=O)OH."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001180",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic sulfuric acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001183",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001183",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the sulfuric acid diamide functional group, with the generic structure R1N(R2)S(=O)(=O)ON(R3)R4 (R1-R4 = H or organyl."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001183",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfuric acid diamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001194",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001194",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Steroid derivatives carrying a C=O group attached to steroid skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001194",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Oxosteroids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001204",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001204",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the phosphoric acid amide functional group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001204",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic phosphoramides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001205",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001205",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a carboxylic acid group with the formula -C(=O)OH."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001205",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Carboxylic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001209",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001209",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the thiourea functional group, a derivative of urea with the general structure (R1(N)R2C(=S)(R3)R4, R1-R4=H, alkyl, aryl), obtained by replacing the carbonyl group of urea with a thiocarbonyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001209",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thioureas"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001212",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001212",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the thiol functional group linked to an alkyl chain."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001212",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkylthiols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001234",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001234",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the isothiocyanate group, an isocyanate analogue with the general formula RN=C=S."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001234",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isothiocyanates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001243",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001243",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a four-member lactone (a cyclic ester)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001243",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Beta propiolactones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001244",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001244",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic organic compounds containing an oxan-2- one moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001244",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Delta valerolactones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001245",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001245",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a gamma butyrolactone moiety, which consists of an aliphatic five-member ring with four carbon atoms, one oxygen atom, and bears a ketone group on the carbon adjacent to the oxygen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001245",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Gamma butyrolactones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001253",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001253",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a quinoline moiety, which consists of a benzene ring fused to a pyrimidine ring to form benzo[b]azabenzene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001253",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Quinolines and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001270",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001270",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Inorganic compounds containing non-metal as well as metal atoms but not belonging to afore mentioned classes."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001270",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Miscellaneous mixed metal/non-metals"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001279",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001279",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing having two beta-haloalkyl groups bound to a sulfur atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001279",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfur mustard compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001302",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001302",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing phosphonic acid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001302",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic phosphonic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001313",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001313",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing 1,4-dioxane, an aliphatic six-member ring with two oxygen atoms in ring positions 1 and 4."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001313",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,4-dioxanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001314",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001314",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing 1,3-dioxane, an aliphatic six-member ring with two oxygen atoms in ring positions 1 and 3."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001314",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,3-dioxanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001334",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001334",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aliphatic alcohols consisting of a chain of a least six carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001334",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fatty alcohols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001359",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001359",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a carboxylic acid substituted with a hydroxyl group on the adjacent carbon."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001359",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alpha hydroxy acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001368",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001368",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a functional group with the general structure OC(=S)NR2 or SC(=O)NR2."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001368",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiocarbamic acid derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001396",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001396",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to an oxazine ring (a six-membered aliphatic ring with four carbon atoms, one oxygen atom, and one nitrogen atom)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001396",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoxazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001437",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001437",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to an oxazine ring (a six-member aliphatic ring with four carbon atoms, one oxygen atom, and one nitrogen atom) bearing a ketone group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001437",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoxazinones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001438",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001438",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic derivatives of thiophosphonic acid, thiophosphoric acid, dithiophosphoric acid, or phosphorotrithioic acid, or derivatives thereof. Thiophosphonic acid, dithiophosphoric acid, thiophosphoric acid, and phosphorotrithioic acid are thiophosphorus compounds with the formula OP(O)(=S), OP(S)(=S)O, OP(O)(=S)O, and OP(=S)(S)S, respectively."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001438",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organothiophosphorus compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001460",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001460",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a secosteroid backbone, usually secoergostane or secocholestane."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001460",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Vitamin D and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001465",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001465",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing or derived from anatoxin, homoanatoxin or other analogues. Anatoxins constitute a class of potent neurotoxic alkaloids."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001465",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anatoxins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001466",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001466",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Steroids with a structure based on the estrane skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001466",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Estrane steroids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001515",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001515",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a chemical bond between a carbon atom and a bromine atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001515",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organobromides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001516",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001516",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a chemical bond between a carbon atom and a chlorine atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001516",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organochlorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001517",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001517",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a chemical bond between a carbon atom and a fluorine atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001517",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organofluorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001518",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001518",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a chemical bond between a carbon atom and an iodine atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001518",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organoiodides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001523",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001523",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a post-transition metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001523",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organo-post-transition metal compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001524",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001524",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing bond between a carbon atom and a tin atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001524",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organotin compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001527",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001527",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic aromatic compounds containing a diphenylacetonitrile moiety, which consists of a diphenylmethane linked to and acetonitrile to form 2,2-diphenylacetonitrile."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001527",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Diphenylacetonitriles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001530",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001530",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene bearing a nitrile substituent."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001530",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzonitriles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001549",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001549",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a chain of two isoprene units."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001549",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Monoterpenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001550",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001550",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Terpenes with three consecutive isoprene units."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001550",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sesquiterpenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001553",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001553",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Terpene molecules containing six isoprene units."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001553",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triterpenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001572",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001572",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the thiophosphoric acid functional group or a derivative thereof, with the general structure ROP(OR')(OR'')=S, where at least one R-group is an organyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001572",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiophosphoric acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001581",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001581",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a piperidine ring which bears a ketone."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001581",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Piperidinones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001633",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001633",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Homoisoflavonoids with a structure based on the chromone system. Chromone is a bicyclic compound consisting of a 1-benzopyran, which bears a ketone group at the 4-position."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001633",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Homoisoflavones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001691",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001691",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a steroid moiety which bears a carboxylic acid ester group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001691",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Steroid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001693",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001693",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an amino group attached to a triazine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001693",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aminotriazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001710",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001710",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Tannins with a structure characterized by either of the following models. In model 1, the structure contains galloyl units (in some cases, shikimic acid units) are linked to diverse polyol carbohydrate-, catechin-, or triterpenoid units. In model 2, contains at least two galloyl units C-C coupled to each other, and do not contain a glycosidically linked catechin unit."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001710",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Hydrolyzable tannins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001715",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001715",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Derivatives of  quinoline in which in which at least one double bond in the quinoline moiety are reduced by adding two hydrogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001715",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Hydroquinolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001722",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001722",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Ester derivatives of a fatty alcohol."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001722",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Fatty alcohol esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001729",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001729",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an oxepane ring, which is a seven-member saturated aliphatic heterocycle with one oxygen and six carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001729",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Oxepanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001753",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001753",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an indole attached to a benzoyl moiety through the acyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001753",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoylindoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001764",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001764",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyridinium ring, which is the cationic form of pyridine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001764",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyridinium derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001804",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001804",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing the pyrophosphate oxoanion, with the structure OP([O-])(=O)OP(O)([O-])=O."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001804",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic pyrophosphates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001814",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001814",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylphosphine, which consists of phosphine substituent bound to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001814",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylphosphines and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001831",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001831",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a carbonyl group, with the general structure RC(=O)R', where R=organyl, R'=H, N, O, organyl group or halide group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001831",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Carbonyl compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001850",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001850",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a thiophenol ring, which a phenol derivative obtained by replacing the oxygen atom from the hydroxyl group (attached to the benzene) by a sulfur atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001850",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiophenols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001851",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001851",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrene moiety, which consists four fused benzene rings, resulting in a flat aromatic system."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001851",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001853",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001853",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a six-member aliphatic saturated heterocycle made up of three oxygen atoms and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001853",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Trioxanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001857",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001857",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a naphthyridine moiety, a naphthalene in which a carbon atom has been replaced by a nitrogen in each of the two rings. The naphthyridine skeleton can also be described as an assembly two fused pyridine rings, which do not share their nitrogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001857",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Naphthyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001859",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001859",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyridopyrimidine, which consists of a pyridine fused to a pyrimidine. Pyridine is 6-membered ring consisting of five carbon atoms and a nitrogen atom. Pyrimidine is a 6-membered ring consisting of four carbon atoms and two nitrogen centers at the 1- and 3- ring positions."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001859",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyridopyrimidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001861",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001861",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a pyridine ring substituted by one or more sulfonamide groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001861",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyridinesulfonamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001862",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001862",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a six-member aliphatic saturated heterocycle made up of three sulfur atoms and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001862",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Trithianes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001888",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001888",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a gamma-sultone, a Intramolecular cyclic ester of hydroxy sulfonic acid, with a SO ring bond, and three ring carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001888",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Gamma sultones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001891",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001891",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a sulfinyl group attached at the position 2 of a benzimidazole moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001891",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfinylbenzimidazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001920",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001920",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a triazine ring which bears a ketone group a carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001920",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triazinones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001935",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001935",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a N-phenylurea moiety, which is structurally characterized by a phenyl group linked to one nitrogen atom of a urea group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001935",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "N-phenylureas"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001973",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001973",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene fused to an oxazole ring (a five-member aliphatic ring with three carbon atoms, one oxygen atom, and one nitrogen atom) bearing a ketone group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001973",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoxazolones"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001975",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001975",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrrolidinylpyridine ring system, which consists of a pyrrolidine ring linked to a pyridine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001975",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrrolidinylpyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001983",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001983",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dihydrofuran moiety, which is a furan derivative with only one double bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001983",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dihydrofurans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001986",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001986",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Carboxylic acids containing exactly three carboxyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001986",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tricarboxylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0001987",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0001987",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic polycyclic compounds containing an isosorbide(1,4-Dianhydrosorbitol) moiety, which consists of two -oxolan-3-ol rings."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0001987",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isosorbides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002010",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002010",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing at least two different types of amino acids (alpha, beta, gamma, delta) linked to each other through a peptide bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002010",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Hybrid peptides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002012",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002012",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an oxane (tetrahydropyran) ring, which is a six-member saturated aliphatic heterocycle with one oxygen atom and five carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002012",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Oxanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002017",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002017",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a thiophene ring which bears a carboxylic acid group (or a salt/ester thereof)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002017",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiophene carboxylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002031",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002031",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Sterol lipids with a structure based on the stigmastane skeleton, which consists of a cholestane moiety bearing an ethyl group at the carbon atom C24."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002031",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Stigmastanes and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002044",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002044",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a phenylnaphthalene skeleton, which consists of a naphthalene bound to a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002044",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylnaphthalenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002106",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002106",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polyketides containing a tetracenequinone ring structure with a sugar attached by glycosidic linkage."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002106",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Anthracyclines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002118",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002118",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic compounds containing an oxazole ring fused to a pyridine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002118",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Oxazolopyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002132",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002132",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a dithioacetal functional group with the general structure R2C(SR')2."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002132",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dithioacetals"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002180",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002180",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds consisting of a pyrimidine linked to a ribose which lacks a hydroxyl group at position 2."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002180",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrimidine 2'-deoxyribonucleosides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002275",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002275",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a naphthalene moiety substituted by one or more nitro groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002275",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitronaphthalenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002279",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002279",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing one monocyclic ring system consisting of benzene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002279",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzene and substituted derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002285",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002285",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a carboximidic group, with the general formula R-C(=NR1)OR2."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002285",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Carboximidic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002317",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002317",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a benzene ring linked to a pyridine ring through a CC or CN bond."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002317",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002319",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002319",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a benzene ring substituted by a hydroxyl group and an ester group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002319",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenol esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002323",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002323",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic aromatic compounds containing a benzene ring fused to a thiadiazole ring. Thiadiazole is a five-membered aromatic heterocycle made up of one sulfur atom and two nitrogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002323",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzothiadiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002336",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002336",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic aromatic compounds containing a benzene ring linked to a pyrrolidine ring through a CC or CN bond. Pyrrolidine is a five-membered saturated aliphatic heterocycle with one nitrogen atom and four carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002336",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpyrrolidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002338",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002338",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic compounds containing a thiophene ring fused to a 7 member carbocyclic moiety. Thiophene is 5-membered ring consisting of four carbon atoms and one sulfur atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002338",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cycloheptathiophenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002341",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002341",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing an ether group substituted with a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002341",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenol ethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002348",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002348",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a quinoline moiety substituted with a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002348",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylquinolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002363",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002363",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Amide derivatives of phenylacetic acids."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002363",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylacetamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002441",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002441",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Naphthalene derivatives carrying one or more hydroxyl (-OH) groups at any ring position."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002441",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Naphthols and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002442",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002442",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Piperidines with a nitroso functional group attached to the piperidine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002442",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Nitrosopiperidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002448",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002448",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing one or more benzene rings."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002448",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002484",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002484",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic acids with the general formula RC(=N)-OH (R=H, organic group)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002484",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Carboximidic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002497",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002497",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an indole moiety, which consists of pyrrole ring fused to benzene  to form 2,3-benzopyrrole."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002497",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Indoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002500",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002500",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Acyclic branched or unbranched hydrocarbons having the general formula CnH2n+2 , and therefore consisting entirely of hydrogen atoms and saturated carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002500",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Alkanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002542",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002542",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic ethers with the general formula ROCR' (R = alkyl, aryl; R'=benzene)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002542",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzylethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002551",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002551",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds with a structure containing a benzene ring conjugated to a propanoic acid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002551",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpropanoic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002552",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002552",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Quinolines in which the quinoline ring system is substituted by a carboxyl group at one or more positions."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002552",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Quinoline carboxylic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002566",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002566",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic polycyclic compounds containing an isoquinoline moiety, which consists of a benzene ring fused to a pyridine ring and forming benzo[c]pyridine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002566",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isoquinolines and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002581",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002581",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Neoflavonoids with a structure based on a 3,4-dihydro-4-aryl-2H-1-benzopyran skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002581",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Neoflavans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002608",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002608",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Alcohols substituted by a chlorine atom at a saturated carbon atom otherwise bearing only hydrogen or hydrocarbyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002608",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Chlorohydrins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002648",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002648",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Heterocyclic compounds containing a saturated, aliphatic, five-membered ring where a carbon is replaced by an oxygen."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002648",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tetrahydrofurans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002651",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002651",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Diarylheptanoids with an open heptane chain. The two aromatic rings are linked only by the heptane chain."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002651",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Linear diarylheptanoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002680",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002680",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Alkaloids with a structure based on the lysergic acid skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002680",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Lysergic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002749",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002749",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Alkaloids having a core structure based on the strychnan, stemmadenine (seco-curan), or the akuammicine (curan) skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002749",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Strychnos alkaloids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002754",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002754",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic alcohols containing a 3-phenylprop-2-en-1-ol moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002754",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cinnamyl alcohols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002798",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002798",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Triazinanes having three nitrogen ring atoms at the 1-, 3-, and 5- positions."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002798",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,3,5-triazinanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002799",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002799",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds with the general formula RSSSR' (R,R'=alkyl, aryl)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002799",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic trisulfides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002811",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002811",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a phenylpropane moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002811",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylpropanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002858",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002858",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Oxazaphospholanes containing the isofamide skeleton. Isofamide is a heterocyclic compound made up of a 1,3,2-oxazaphospholane, where the phosphorus atom is part of a phosphodiamide group, and the oxazaphospholane is substituted by two haloalkyl chains."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002858",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Isofamides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002861",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002861",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Vinyl halides in which a fluorine atom is bonded to an sp2-hybridised carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002861",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Vinyl fluorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002863",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002863",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Vinyl halides in which a chlorine atom is bonded to an sp2-hybridised carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002863",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Vinyl chlorides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002864",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002864",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Vinyl halides in which a bromine atom is bonded to an sp2-hybridised carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002864",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Vinyl bromides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002902",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002902",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "A group of macrolides with a structure containing a 16-membered lactone ring fused to a 1,7-dioxaspiroundecane ring system and to either a benzofuran (or hydrogenated derivative thereof). In some cases (e.g. Milbemycin E), the tetrahydrofuranyl ring is missing. Milbemycins can be o-glycosylated at C13 to form Avermectins. Milbemycins are produced by Streptomyces species."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002902",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Milbemycins"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002955",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002955",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Tetrahydrogenated isoquinoline derivatives."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002955",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tetrahydroisoquinolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002966",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002966",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Carboxylic acids containing exactly four carboxyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002966",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Tetracarboxylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0002995",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0002995",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Carboxylic acids containing exactly five carboxyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0002995",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pentacarboxylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003094",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003094",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic heterocyclic compounds containing a six-membered saturated heterocycle with two nitrogen, one sulfur, and three carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003094",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Thiadiazinanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003260",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003260",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds a sulfenyl group with the general formula RS (R = organyl)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003260",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfenyl compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003370",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003370",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organonitrogen aromatic compounds that contain a central azo group, where each nitrogen atom is conjugated to a benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003370",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Azobenzenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003411",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003411",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic aromatic compounds that 1-benzopyran, a bicyclic compound made up of a benzene ring fused to a pyran, so that the oxygen atom is at the 2-position."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003411",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "2-benzopyrans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003449",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003449",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a pyrrolidine moiety that is substituted at the N1-position with an alkyl group. Pyrrolidine is a five-membered saturated aliphatic heterocycle with one nitrogen atom and four carbon atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003449",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "N-alkylpyrrolidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003467",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003467",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds with a structure based on a C6-C3-C6 skeleton, where the two benzene rings are not linked together."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003467",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Linear 1,3-diarylpropanoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003480",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003480",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compound containing an ester derivative of cinnamic acid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003480",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cinnamic acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003566",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003566",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Steroids with a structure containing the 27-carbon cholestane skeleton."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003566",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cholestane steroids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003688",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003688",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds having the divalent diazo group, =N+=N-, attached to a carbon atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003688",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Diazo compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003862",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003862",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds containing a thioether group that is substituted by two alkyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003862",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dialkylthioethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003865",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003865",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds consisting of an assembly of cations and anions."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003865",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic salts"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003886",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003886",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Cyclic organooxygen compounds containing the structure RC(=N)N where the central carbon atom and one of the linked nitrogen atoms are part of the same ring( R here is an organyl group). They can also be viewed as analogs of lactams where the oxygen atom is replaced by a nitrogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003886",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Imidolactams"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003893",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003893",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organophosphorus compounds containing a diester derivative of phosphonic acid, with the general structure ROP(=O)OR' (R,R' = organyl group)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003893",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phosphonic acid diesters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003936",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003936",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds with the general formula R3SC(=S)N(R1)R2; R1-R2 =  H or organyl group, R3 = organyl."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003936",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dithiocarbamic acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003940",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003940",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an oxide group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003940",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Organic oxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0003953",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0003953",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a quinoline moiety, which carries a hydroxy group at the 8-position. Quinoline consists of a benzene ring fused to a pyrimidine ring to form benzo[b]azabenzene."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0003953",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "8-hydroxyquinolines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004089",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004089",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a disulfide group R-SS-R' where R and R' are both alkyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004089",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dialkyldisulfides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004097",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004097",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a benzene ring fused to a 1,4-azepine."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004097",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,4-benzodiazepines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004105",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004105",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a triazine ring, which is a heterocyclic ring, similar to the six-member benzene ring but with three carbons replaced by nitrogen atoms, at ring positions 1, 3, and 5."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004105",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,3,5-triazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004107",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004107",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing a triazine ring, which is a heterocyclic ring, similar to the six-member benzene ring but with three carbons replaced by nitrogen atoms, at ring positions 1, 2, and 4."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004107",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1,2,4-triazines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004112",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004112",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing two benzoyl groups O-linked to each other via a peroxide group. Their skeleton has the general formula [C6H5C(O)]2O2."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004112",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzoyl peroxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004144",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004144",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing an aromatic ring where a carbon atom is linked to an hetero atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004144",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Heteroaromatic compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004149",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004149",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Polycyclic organic compounds made up only of carbon and hydrogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004149",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Polycyclic hydrocarbons"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004150",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004150",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Derivatives of hydrocarbons obtained by substituting one or more carbon atoms by an heteroatom. They contain at least one carbon atom and heteroatom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004150",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Hydrocarbon derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004152",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004152",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a pyridine ring substituted at one or more positions by a methyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004152",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Methylpyridines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004155",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004155",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing two benzene rings linked to each other through an ether group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004155",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Diphenylethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004157",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004157",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds in which at least one of the four hydrogen atoms of methane (CH4) are replaced by halogen atoms."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004157",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Halomethanes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004162",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004162",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing an indole moiety that carries a hydroxyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004162",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Hydroxyindoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004164",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004164",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "O-ester derivatives of dithiophosphates, with the general structure RSP(O)(O)=S (R = organyl group)."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004164",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dithiophosphate O-esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004189",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004189",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds containing the coumaran skeleton, which consists of a benzene ring fused to a 2,3-dihydrofuran ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004189",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Coumarans"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004201",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004201",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compound containing a triazole ring fused to the benzene or the thiazole moiety of the benzothiazole ring system."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004201",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triazolobenzothiazoles"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004203",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004203",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a methyl-3-methoxyacrylate moiety that carries a benzyl group at the C-alpha carbon."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004203",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenyl-beta-methoxyacrylates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004233",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004233",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a benzenesulfonyl group, which consists of a monocyclic benzene moiety that carries a sulfonyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004233",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzenesulfonyl compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004387",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004387",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic heterocyclic compounds containing a pyrazolo[3,4-d]pyrimidine ring system, which consists of a pyrazole ring fused to but and not sharing a nitrogen atom with a pyrimidine ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004387",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Pyrazolo[3,4-d]pyrimidines"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004441",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004441",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organometallic compounds containing an allylic group attached to the metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004441",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Metal allyls"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004443",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004443",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Metal alkyls, where the alkyl group is attached to a transition metal atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004443",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Transition metal alkyls"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004450",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004450",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing acrylic acid CH2=CHCO2H or a derivative thereof."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004450",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Acrylic acids and derivatives"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004476",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004476",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aliphatic Hydrocarbons that contains one or more unsaturated carbon atoms. These compounds contain one or more double or triple bonds."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004476",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Unsaturated aliphatic hydrocarbons"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004477",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004477",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds that are made up of carbon and hydrogen atoms only."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004477",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aromatic hydrocarbons"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004478",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004478",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Compounds arising by replacement of one or both hydrogen atoms of acetylene (ethyne) by a metal or other cationic group. E.g. NaC#CH monosodium acetylide. By extension, analogous compounds derived from terminal acetylenes, RC#CH. The class is limited here to derivatives of acetylene where the hydrogen atom is replaced with an element with similar or lower electronegativity that carbon."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004478",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Acetylides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004484",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004484",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organic compounds containing a phosphorous acid, which is tri-esterified with alkyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004484",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Trialkylphosphites"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004485",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004485",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organohalogen compounds containing a monocyclic cyclohexane moiety that is substituted at one or more positions by an halogen atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004485",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Cyclohexyl halides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004502",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004502",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Nucleosides in which the oxygen atom at the 5'position of the ribose moiety has been replaced by another atom. The nucleobases here are limited to purine, pyrimidine, and pyridine derivatives."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004502",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "5'-deoxyribonucleosides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004524",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004524",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a triphenyl moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004524",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Triphenyl compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004551",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004551",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organofluorine compounds that contain a benzene ring substituted with one or more trifluoromethyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004551",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Trifluoromethylbenzenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004622",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004622",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Hydrocarbons that contains one or more unsaturated carbon atoms, and an aliphatic branch."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004622",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Branched unsaturated hydrocarbons"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004628",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004628",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Phenols that carry an alkoxy group at the 4-position of the benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004628",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "4-alkoxyphenols"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004631",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004631",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds containing a thioether group that is substituted by an aryl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004631",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aryl thioethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004632",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004632",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organosulfur compounds containing a sulfoxide group substituted with a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004632",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenyl sulfoxides"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004640",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004640",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a methylcarbamic acid esterified with a phenyl group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004640",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenyl methylcarbamates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004646",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004646",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Phenols that a unsubstituted at the 2-position."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004646",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1-hydroxy-2-unsubstituted benzenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004647",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004647",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Phenols that are unsubstituted at the 4-position."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004647",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "1-hydroxy-4-unsubstituted benzenoids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004660",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004660",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds containing a benzo-1,2,3-triazine, which is substituted by an organothiophosphate group at the 3-position. Their general structure is R-CSP(=S)(OR')OR'', where R=benzo-1,2,3-triazine, R',R\\\" = any atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004660",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Benzotriazine organothiophosphates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004665",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004665",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Organooxygen compounds containing a O,S-diester derivative of phosphoroamidothioic acid. They have the general structure RSP(=O)(OR')(NH2), where R,R' are organyl groups."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004665",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phosphoramidothioic-acid-O,S-diesters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004670",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004670",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds that contain a phenol ether, which carries an amine group on the benzene ring."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004670",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Aminophenyl ethers"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004676",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004676",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds hat contain a phenol ether attached to the C2-atom of a phenylpropionic acid."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004676",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "2-phenoxypropionic acids"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004677",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004677",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds hat contain a phenol ether attached to the C2-atom of a phenylpropionic acid ester."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004677",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "2-phenoxypropionic acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004711",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004711",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic heteropolycyclic compounds that contain a carbamic acid ester group, which is N-linked to the C2-atom of a benzimidazole moiety."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004711",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "2-benzimidazolylcarbamic acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004714",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004714",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Ester derivatives of phenylcarbamic acids."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004714",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenylcarbamic acid esters"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004742",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004742",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic compounds contaning a phenoxy group."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004742",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Phenoxy compounds"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004752",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004752",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Oxime ether derivatives with the general formula CC(R)=NOC(=O)N(R')R\\\", where R-R\\\" = H or organyl."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004752",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Oxime carbamates"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004785",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004785",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Stilbenes that carry a sulfone group at one or more positions of either benzene rings."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004785",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Sulfonated stilbenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004794",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004794",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic heterocyclic compounds containing a naphthalene moiety substituted at one or more positions by a chlorine atom."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004794",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Chloronaphthalenes"
+    }
+  }, {
+    "@id" : "csc:CHEMONTID_0004812",
+    "@type" : "skos:Concept",
+    "seeAlso" : "tax_nodes:C0004812",
+    "definition" : {
+      "@language" : "en",
+      "@value" : "Aromatic polycyclic compounds containing an acenaphthylene moiety. Acenaphthylene is a carbotricyclic compound, consisting of a naphthalene with positions C1 and C8 connected by an ethylene bridge."
+    },
+    "inScheme" : "vlcs:chemische_stof",
+    "notation" : "CHEMONTID:0004812",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Acenaphthylenes"
+    }
+  }, {
+    "@id" : "vlcs:chemische_stof",
+    "@type" : "skos:ConceptScheme",
+    "belongsTo" : "omg_dataset:codelijst-chemische_stof",
+    "levels" : "list:kingdom",
+    "altLabel" : {
+      "@language" : "en",
+      "@value" : "a chemical entity"
+    },
+    "definition" : [ {
+      "@language" : "en",
+      "@value" : "Constitutionally or isotopically distinct atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, conformers etc., identifiable as a separately distinguishable entity."
+    }, {
+      "@language" : "nl",
+      "@value" : "Een stof is in de scheikunde een vorm van materie die een gelijke chemische samenstelling heeft, een chemisch zuivere stof. Deze wordt gekenmerkt door specifieke, uniforme stofeigenschappen, zoals dichtheid, geleidbaarheid en smeltpunt."
+    } ],
+    "hasTopConcept" : [ "csc:CHEMONTID_0000000", "csc:CHEMONTID_0000001" ],
+    "notation" : "CHEMONTID:9999999",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Chemical entities"
+    }, {
+      "@language" : "nl",
+      "@value" : "Conceptschema Chemische Stoffen"
+    } ]
+  } ],
+  "@context" : {
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "levels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#levels",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "@vocab" : "http://purl.obolibrary.org/obo/ChemOnt.owl#",
+    "tax_nodes" : "http://classyfire.wishartlab.com/tax_nodes/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "omg_dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/",
+    "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+    "cosc" : "https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/",
+    "wise" : "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+    "dct" : "http://purl.org/dc/terms/",
+    "wk" : "https://data.omgeving.vlaanderen.be/ns/wk#",
+    "xml" : "http://www.w3.org/XML/1998/namespace",
+    "vcs" : "https://data.vlaanderen.be/ns/chemische_stof#",
+    "list" : "https://data.omgeving.vlaanderen.be/id/list/chemische_stof/",
+    "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
+    "compound" : "https://pubchem.ncbi.nlm.nih.gov/compound/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "cs" : "https://data.vlaanderen.be/ns/chemische_stof#",
+    "csc" : "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+    "dbp" : "http://dbpedia.org/property/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "cscl" : "https://data.omgeving.vlaanderen.be/id/classificationlevel/chemische_stof/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
