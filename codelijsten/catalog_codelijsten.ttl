@@ -42,10 +42,15 @@
 @prefix omg_package: <https://data.omgeving.vlaanderen.be/id/package/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst
-    a                 spdx:Package ;
-    rdfs:label        "Package codelijst"@nl ;
-    spdx:packageName  "be.vlaanderen.omgeving.data.id.graph.codelijst" .
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure
+    a                      spdx:Package ;
+    rdfs:label             "Package codelijst-observatieprocedure"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.0.5/codelijst-observatieprocedure-1.0.5.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-observatieprocedure-1.0.5.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
+    spdx:versionInfo       "1.0.5" .
 
 omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-chemische_stof
     a                      spdx:Package ;
@@ -57,110 +62,35 @@ omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-chemische_stof
                            omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
     spdx:versionInfo       "1.0.9" .
 
-omg_distribution:codelijst-chemische_stof_jsonld
+omg_distribution:codelijst-emissie_csv
     a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Chemische stoffen, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_jsonld" ;
+    rdfs:label            "Codelijst Emissie, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_ttl" ;
     dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-chemische_stof_jsonld ;
+    dcterms:description   "Codelijst Emissie, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-emissie_ttl ;
     dcterms:issued        "2022-09-10"^^xsd:date ;
     dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Chemische stoffen in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.9" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html> .
-
-omg_distribution:codelijst-emissie_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Emissie, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Emissie, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-emissie_jsonld ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Emissie in jsonld rdf-formaat."@nl ;
+    dcterms:title         "Codelijst Emissie in text/csv formaat."@nl ;
     owl:versionInfo       "1.0.5" ;
     dcat:accessURL        <https://github.com/milieuinfo/codelijst-emissie.git> ;
     dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_jsonld.html> .
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_csv.html> .
 
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-emissie
-    a                      spdx:Package ;
-    rdfs:label             "Package codelijst-emissie"@nl ;
-    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-emissie/1.0.5/codelijst-emissie-1.0.5.jar"^^xsd:anyURI ;
-    spdx:packageFileName   "codelijst-emissie-1.0.5.jar" ;
-    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-emissie" ;
-    spdx:relationshipType_packageOf
-                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
-    spdx:versionInfo       "1.0.5" .
-
-omg_dataset:codelijst-fysico-chemische-eigenschap
-    a                           dcat:Dataset ;
-    rdfs:label                  "Dataset Codelijst fysico chemische eigenschap"@nl ;
-    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap" ;
-    dc:language                 "nl"@nl ;
-    dcterms:accessRights        access_right:PUBLIC ;
-    dcterms:accrualPeriodicity  frequency:IRREG ;
-    dcterms:alternative         "Codelijst fysico chemische eigenschap Dataset"@nl ;
-    dcterms:description         "Deze dataset bevat een lijst van types fysico-chemisch gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
-    dcterms:identifier          omg_dataset:codelijst-fysico-chemische-eigenschap ;
-    dcterms:issued              "2022-03-01"^^xsd:date ;
-    dcterms:language            language:NLD ;
-    dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
-    dcterms:publisher           ovo:OVO003323 ;
-    dcterms:rightsHolder        ovo:OVO003751 ;
-    dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
-    dcterms:temporal            omg_periodoftime:dataset_omg ;
-    dcterms:title               "Thesaurus fysico-chemischtypes"@nl ;
-    void:rootResource           omg_conceptscheme:fysico-chemisch ;
-    owl:versionInfo             "1.0.6" ;
-    dcat:contactPoint           omg_vcard:helpdesk ;
-    dcat:distribution           omg_distribution:codelijst-fysico-chemische-eigenschap_csv , omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld , omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
-    dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
-    dcat:theme                  gemet:10087 , datatheme_eu:ENVI , datatheme_be:ENVI , eurovoc:2407 ;
-    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-fysico-chemische-eigenschap.html> .
-
-omg_catalog:codelijst
-    a                     dcat:Catalog ;
-    rdfs:label            "Catalogus van datasets, codelijsten, van het domein omgeving."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.catalog.codelijst" ;
-    dc:language           "nl"@nl ;
-    dc:source             "Codelijsten omgeving." ;
-    dcterms:alternative   "Dataset catalogus codelijsten omgeving."@nl ;
-    dcterms:description   "De codelijsten met betrekking tot het hele domein omgeving van de Vlaamse Overheid."@nl ;
-    dcterms:identifier    omg_catalog:codelijst ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:language      language:NLD ;
-    dcterms:license       <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
-    dcterms:publisher     ovo:OVO003323 ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:spatial       <https://www.geonames.org/3337388/flanders> , country:BEL ;
-    dcterms:title         "Catalogus van datasets, codelijsten, van het domein omgeving."@nl ;
-    void:rootResource     omg_catalog:codelijst ;
-    owl:versionInfo       "1.0.10" ;
-    dcat:contactPoint     omg_vcard:helpdesk ;
-    dcat:dataset          omg_dataset:codelijst-fysico-chemische-eigenschap , omg_dataset:codelijst-emissie , omg_dataset:codelijst-bioindicator , omg_dataset:codelijst-observatieprocedure , omg_dataset:codelijst-sommatie_stoffen , omg_dataset:codelijst-matrix , omg_dataset:codelijst-chemische_stof ;
-    dcat:service          omg_dataservice:sparqlendpoint ;
-    foaf:homepage         <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure
-    a                      spdx:Package ;
-    rdfs:label             "Package codelijst-observatieprocedure"@nl ;
-    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.0.5/codelijst-observatieprocedure-1.0.5.jar"^^xsd:anyURI ;
-    spdx:packageFileName   "codelijst-observatieprocedure-1.0.5.jar" ;
-    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure" ;
-    spdx:relationshipType_packageOf
-                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
-    spdx:versionInfo       "1.0.5" .
+omg_service:sparqlservice
+    a                     sd:Service ;
+    rdfs:comment          "Een beschrijving, met de verschillende kenmerken, van de sparql service."@nl ;
+    rdfs:label            "Sparql service conform SPARQL 1.1 Protocol."@nl ;
+    sd:availableGraphs    omg_graphcollection:sparqlservice ;
+    sd:defaultDataset     omg_graphcollection:sparqlservice ;
+    sd:endpoint           <https://data.omgeving.vlaanderen.be/sparql> ;
+    sd:feature            sd:UnionDefaultGraph , sd:DereferencesURIs ;
+    sd:resultFormat       formats:SPARQL_Results_JSON , formats:Turtle , formats:SPARQL_Results_XML , formats:SPARQL_Results_CSV , formats:N3 , formats:N-Triples , formats:RDF_XML ;
+    sd:supportedLanguage  sd:SPARQL10Query ;
+    sd:url                <https://data.omgeving.vlaanderen.be/sparql> .
 
 omg_dataset:codelijst-observatieprocedure
     a                           dcat:Dataset ;
@@ -188,169 +118,31 @@ omg_dataset:codelijst-observatieprocedure
     dcat:theme                  gemet:10087 , eurovoc:2407 , datatheme_be:ENVI , datatheme_eu:ENVI ;
     foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.html> .
 
-omg_distribution:codelijst-fysico-chemische-eigenschap_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst fysico chemische eigenschap, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst fysico chemische eigenschap in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.6" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html> .
-
-omg_distribution:codelijst-matrix_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Matrix, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-matrix_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Matrix, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-matrix_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Matrix in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.6" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-matrix.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-matrix/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/matrix/matrix.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-matrix_csv.html> .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap
-    a                      spdx:Package ;
-    rdfs:label             "Package codelijst-fysico-chemische-eigenschap"@nl ;
-    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-fysico-chemische-eigenschap/1.0.6/codelijst-fysico-chemische-eigenschap-1.0.6.jar"^^xsd:anyURI ;
-    spdx:packageFileName   "codelijst-fysico-chemische-eigenschap-1.0.6.jar" ;
-    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap" ;
-    spdx:relationshipType_packageOf
-                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
-    spdx:versionInfo       "1.0.6" .
-
-omg_distribution:codelijst-observatieprocedure_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Observatieprocedure, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_jsonld ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Observatieprocedure in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.5" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_jsonld.html> .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-sommatie_stoffen
-    a                      spdx:Package ;
-    rdfs:label             "Package codelijst-sommatie_stoffen"@nl ;
-    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-sommatie_stoffen/1.0.7/codelijst-sommatie_stoffen-1.0.7.jar"^^xsd:anyURI ;
-    spdx:packageFileName   "codelijst-sommatie_stoffen-1.0.7.jar" ;
-    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-sommatie_stoffen" ;
-    spdx:relationshipType_packageOf
-                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
-    spdx:versionInfo       "1.0.7" .
-
-omg_distribution:codelijst-bioindicator_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Bioindicatoren, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-bioindicator_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Bioindicatoren in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.4" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_csv.html> .
-
-omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst fysico chemische eigenschap in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.6" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_jsonld.html> .
-
-omg_distribution:codelijst-chemische_stof_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Chemische stoffen, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-chemische_stof_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Chemische stoffen in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.9" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_csv.html> .
-
-omg_distribution:codelijst-fysico-chemische-eigenschap_ttl
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst fysico chemische eigenschap in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.6" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html> .
-
-omg_distribution:codelijst-sommatie_stoffen_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Sommatie Stoffen, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Sommatie Stoffen in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.7" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_csv.html> .
+omg_dataset:codelijst-fysico-chemische-eigenschap
+    a                           dcat:Dataset ;
+    rdfs:label                  "Dataset Codelijst fysico chemische eigenschap"@nl ;
+    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-fysico-chemische-eigenschap" ;
+    dc:language                 "nl"@nl ;
+    dcterms:accessRights        access_right:PUBLIC ;
+    dcterms:accrualPeriodicity  frequency:IRREG ;
+    dcterms:alternative         "Codelijst fysico chemische eigenschap Dataset"@nl ;
+    dcterms:description         "Deze dataset bevat een lijst van types fysico-chemisch gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
+    dcterms:identifier          omg_dataset:codelijst-fysico-chemische-eigenschap ;
+    dcterms:issued              "2022-03-01"^^xsd:date ;
+    dcterms:language            language:NLD ;
+    dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+    dcterms:publisher           ovo:OVO003323 ;
+    dcterms:rightsHolder        ovo:OVO003751 ;
+    dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
+    dcterms:temporal            omg_periodoftime:dataset_omg ;
+    dcterms:title               "Thesaurus fysico-chemischtypes"@nl ;
+    void:rootResource           omg_conceptscheme:fysico-chemisch ;
+    owl:versionInfo             "1.0.6" ;
+    dcat:contactPoint           omg_vcard:helpdesk ;
+    dcat:distribution           omg_distribution:codelijst-fysico-chemische-eigenschap_csv , omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld , omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
+    dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
+    dcat:theme                  gemet:10087 , datatheme_eu:ENVI , datatheme_be:ENVI , eurovoc:2407 ;
+    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-fysico-chemische-eigenschap.html> .
 
 omg_distribution:codelijst-matrix_ttl
     a                     dcat:Distribution ;
@@ -370,207 +162,39 @@ omg_distribution:codelijst-matrix_ttl
     dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
     foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-matrix_ttl.html> .
 
-omg_distribution:codelijst-sommatie_stoffen_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Sommatie Stoffen, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_jsonld ;
+omg_catalog:codelijst
+    a                     dcat:Catalog ;
+    rdfs:label            "Catalogus van datasets, codelijsten, van het domein omgeving."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.catalog.codelijst" ;
+    dc:language           "nl"@nl ;
+    dc:source             "Codelijsten omgeving." ;
+    dcterms:alternative   "Dataset catalogus codelijsten omgeving."@nl ;
+    dcterms:description   "De codelijsten met betrekking tot het hele domein omgeving van de Vlaamse Overheid."@nl ;
+    dcterms:identifier    omg_catalog:codelijst ;
     dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:language      language:NLD ;
+    dcterms:license       <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+    dcterms:publisher     ovo:OVO003323 ;
     dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Sommatie Stoffen in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.7" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_jsonld.html> .
+    dcterms:spatial       <https://www.geonames.org/3337388/flanders> , country:BEL ;
+    dcterms:title         "Catalogus van datasets, codelijsten, van het domein omgeving."@nl ;
+    void:rootResource     omg_catalog:codelijst ;
+    owl:versionInfo       "1.0.10" ;
+    dcat:contactPoint     omg_vcard:helpdesk ;
+    dcat:dataset          omg_dataset:codelijst-fysico-chemische-eigenschap , omg_dataset:codelijst-emissie , omg_dataset:codelijst-observatieprocedure , omg_dataset:codelijst-bioindicator , omg_dataset:codelijst-sommatie_stoffen , omg_dataset:codelijst-matrix , omg_dataset:codelijst-chemische_stof ;
+    dcat:service          omg_dataservice:sparqlendpoint ;
+    sd:namedGraph         omg_named_graph:algemeen-conceptschemes-publiek , omg_named_graph:algemeen-catalog-publiek ;
+    foaf:homepage         <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> .
 
-omg_distribution:codelijst-bioindicator_ttl
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Bioindicatoren, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-bioindicator_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Bioindicatoren in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.4" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_ttl.html> .
-
-omg_distribution:codelijst-emissie_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Emissie, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Emissie, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-emissie_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Emissie in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.5" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-emissie.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_csv.html> .
-
-omg_dataservice:sparqlendpoint
-    a                   dcat:DataService ;
-    dcat:servesDataset  omg_dataset:codelijst-bioindicator , omg_dataset:codelijst-sommatie_stoffen , omg_dataset:codelijst-observatieprocedure , omg_dataset:codelijst-chemische_stof , omg_dataset:codelijst-fysico-chemische-eigenschap , omg_dataset:codelijst-matrix , omg_dataset:codelijst-emissie .
-
-omg_distribution:codelijst-chemische_stof_ttl
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Chemische stoffen, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-chemische_stof_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Chemische stoffen in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.9" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_ttl.html> .
-
-omg_distribution:codelijst-sommatie_stoffen_ttl
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Sommatie Stoffen, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Sommatie Stoffen in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.7" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_ttl.html> .
-
-omg_distribution:codelijst-bioindicator_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Bioindicatoren, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-bioindicator_jsonld ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Bioindicatoren in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.4" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_jsonld.html> .
-
-omg_distribution:codelijst-emissie_ttl
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Emissie, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Emissie, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-emissie_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Emissie in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.5" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-emissie.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_ttl.html> .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst
     a                      spdx:Package ;
-    rdfs:label             "Package codelijst-bioindicator"@nl ;
-    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.0.4/codelijst-bioindicator-1.0.4.jar"^^xsd:anyURI ;
-    spdx:packageFileName   "codelijst-bioindicator-1.0.4.jar" ;
-    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator" ;
+    rdfs:label             "Package codelijst"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.10/codelijst-1.0.10.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-1.0.10.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst" ;
     spdx:relationshipType_packageOf
-                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
-    spdx:versionInfo       "1.0.4" .
-
-omg_dataset:codelijst-sommatie_stoffen
-    a                           dcat:Dataset ;
-    rdfs:label                  "Dataset Codelijst Sommatie Stoffen"@nl ;
-    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-sommatie_stoffen" ;
-    dc:language                 "nl"@nl ;
-    dcterms:accessRights        access_right:PUBLIC ;
-    dcterms:accrualPeriodicity  frequency:IRREG ;
-    dcterms:alternative         "Codelijst Sommatie Stoffen Dataset"@nl ;
-    dcterms:description         "Deze dataset bevat een lijst van types sommatie_stoffen gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
-    dcterms:identifier          omg_dataset:codelijst-sommatie_stoffen ;
-    dcterms:issued              "2022-03-01"^^xsd:date ;
-    dcterms:language            language:NLD ;
-    dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
-    dcterms:publisher           ovo:OVO003323 ;
-    dcterms:rightsHolder        ovo:OVO003751 ;
-    dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
-    dcterms:temporal            omg_periodoftime:dataset_omg ;
-    dcterms:title               "Thesaurus Sommatie Stoffen"@nl ;
-    void:rootResource           omg_conceptscheme:sommatie_stoffen ;
-    owl:versionInfo             "1.0.7" ;
-    dcat:contactPoint           omg_vcard:helpdesk ;
-    dcat:distribution           omg_distribution:codelijst-sommatie_stoffen_ttl , omg_distribution:codelijst-sommatie_stoffen_csv , omg_distribution:codelijst-sommatie_stoffen_jsonld ;
-    dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
-    dcat:theme                  datatheme_be:ENVI , datatheme_eu:ENVI , eurovoc:2407 , gemet:10087 ;
-    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-sommatie_stoffen.html> .
-
-omg_distribution:codelijst-observatieprocedure_csv
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Observatieprocedure, in text/csv formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_ttl" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in csv tabelformaat."@nl ;
-    dcterms:format        file_type:CSV ;
-    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_ttl ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Observatieprocedure in text/csv formaat."@nl ;
-    owl:versionInfo       "1.0.5" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_csv.html> .
-
-omg_distribution:codelijst-matrix_jsonld
-    a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Matrix, in jsonld rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-matrix_jsonld" ;
-    dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Matrix, geserialiseerd in een jsonld bestand."@nl ;
-    dcterms:format        file_type:JSON_LD ;
-    dcterms:identifier    omg_distribution:codelijst-matrix_jsonld ;
-    dcterms:issued        "2022-09-10"^^xsd:date ;
-    dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Matrix in jsonld rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.6" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-matrix.git> ;
-    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-matrix/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/matrix/matrix.jsonld> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-matrix_jsonld.html> .
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
+    spdx:versionInfo       "1.0.10" .
 
 omg_dataset:codelijst-bioindicator
     a                           dcat:Dataset ;
@@ -598,6 +222,65 @@ omg_dataset:codelijst-bioindicator
     dcat:theme                  gemet:10087 , datatheme_be:ENVI , eurovoc:2407 , datatheme_eu:ENVI ;
     foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-bioindicator.html> .
 
+omg_distribution:codelijst-fysico-chemische-eigenschap_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst fysico chemische eigenschap, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst fysico chemische eigenschap in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.6" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_csv.html> .
+
+omg_distribution:codelijst-matrix_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Matrix, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-matrix_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Matrix, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-matrix_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Matrix in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.6" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-matrix.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-matrix/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/matrix/matrix.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-matrix_jsonld.html> .
+
+omg_distribution:codelijst-chemische_stof_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Chemische stoffen, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-chemische_stof_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Chemische stoffen in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.9" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_ttl.html> .
+
+omg_graphcollection:sparqlservice
+    a              sd:Dataset , sd:GraphCollection ;
+    rdfs:label     "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."@nl ;
+    sd:namedGraph  omg_named_graph:algemeen-conceptschemes-publiek , omg_named_graph:algemeen-catalog-publiek .
+
 omg_dataset:codelijst-emissie
     a                           dcat:Dataset ;
     rdfs:label                  "Dataset Codelijst Emissie"@nl ;
@@ -624,6 +307,198 @@ omg_dataset:codelijst-emissie
     dcat:theme                  datatheme_eu:ENVI , datatheme_be:ENVI , eurovoc:2407 , gemet:10087 ;
     foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-emissie.html> .
 
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator
+    a                      spdx:Package ;
+    rdfs:label             "Package codelijst-bioindicator"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-bioindicator/1.0.4/codelijst-bioindicator-1.0.4.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-bioindicator-1.0.4.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-bioindicator" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
+    spdx:versionInfo       "1.0.4" .
+
+omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst fysico chemische eigenschap, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst fysico chemische eigenschap in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.6" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_jsonld.html> .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek
+    a                      spdx:Package ;
+    rdfs:label             "Package algemeen-conceptschemes-publiek"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.12/algemeen-conceptschemes-publiek-1.0.12.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "algemeen-conceptschemes-publiek-1.0.12.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
+    spdx:versionInfo       "1.0.12" .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek
+    a                      spdx:Package ;
+    rdfs:label             "Package algemeen-catalog-publiek"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.9/algemeen-catalog-publiek-1.0.9.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "algemeen-catalog-publiek-1.0.9.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek" ;
+    spdx:versionInfo       "1.0.9" .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-emissie
+    a                      spdx:Package ;
+    rdfs:label             "Package codelijst-emissie"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-emissie/1.0.5/codelijst-emissie-1.0.5.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-emissie-1.0.5.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-emissie" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
+    spdx:versionInfo       "1.0.5" .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap
+    a                      spdx:Package ;
+    rdfs:label             "Package codelijst-fysico-chemische-eigenschap"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-fysico-chemische-eigenschap/1.0.6/codelijst-fysico-chemische-eigenschap-1.0.6.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-fysico-chemische-eigenschap-1.0.6.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-fysico-chemische-eigenschap" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
+    spdx:versionInfo       "1.0.6" .
+
+omg_distribution:codelijst-matrix_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Matrix, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-matrix_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Matrix, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-matrix_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Matrix in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.6" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-matrix.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-matrix/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/matrix/matrix.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-matrix_csv.html> .
+
+omg_distribution:codelijst-bioindicator_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Bioindicatoren, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-bioindicator_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Bioindicatoren in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.4" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_ttl.html> .
+
+omg_distribution:codelijst-chemische_stof_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Chemische stoffen, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-chemische_stof_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Chemische stoffen in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.9" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_csv.html> .
+
+omg_distribution:codelijst-observatieprocedure_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Observatieprocedure, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Observatieprocedure in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.5" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_ttl.html> .
+
+omg_distribution:codelijst-bioindicator_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Bioindicatoren, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-bioindicator_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Bioindicatoren in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.4" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_jsonld.html> .
+
+omg_distribution:codelijst-sommatie_stoffen_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Sommatie Stoffen, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Sommatie Stoffen in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.7" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_jsonld.html> .
+
+omg_distribution:codelijst-sommatie_stoffen_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Sommatie Stoffen, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Sommatie Stoffen in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.7" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_ttl.html> .
+
 omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-matrix
     a                      spdx:Package ;
     rdfs:label             "Package codelijst-matrix"@nl ;
@@ -633,6 +508,88 @@ omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-matrix
     spdx:relationshipType_packageOf
                            omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
     spdx:versionInfo       "1.0.6" .
+
+omg_distribution:codelijst-emissie_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Emissie, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Emissie, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-emissie_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Emissie in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.5" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-emissie.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_jsonld.html> .
+
+omg_dataset:codelijst-chemische_stof
+    a                           dcat:Dataset ;
+    rdfs:label                  "Dataset Codelijst Chemische stoffen"@nl ;
+    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-chemische_stof" ;
+    dc:language                 "nl"@nl ;
+    dcterms:accessRights        access_right:PUBLIC ;
+    dcterms:accrualPeriodicity  frequency:IRREG ;
+    dcterms:alternative         "Codelijst Chemische stoffen Dataset"@nl ;
+    dcterms:description         "Deze dataset bevat een lijst van chemische stoffen, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
+    dcterms:identifier          omg_dataset:codelijst-chemische_stof ;
+    dcterms:issued              "2022-03-01"^^xsd:date ;
+    dcterms:language            language:NLD ;
+    dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+    dcterms:publisher           ovo:OVO003323 ;
+    dcterms:rightsHolder        ovo:OVO003751 ;
+    dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
+    dcterms:temporal            omg_periodoftime:dataset_omg ;
+    dcterms:title               "Thesaurus chemische stoffen"@nl ;
+    void:rootResource           omg_conceptscheme:chemische_stof ;
+    owl:versionInfo             "1.0.9" ;
+    dcat:contactPoint           omg_vcard:helpdesk ;
+    dcat:distribution           omg_distribution:codelijst-chemische_stof_csv , omg_distribution:codelijst-chemische_stof_ttl , omg_distribution:codelijst-chemische_stof_jsonld ;
+    dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
+    dcat:theme                  gemet:10087 , datatheme_be:ENVI , eurovoc:2407 , datatheme_eu:ENVI ;
+    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-chemische_stof.html> .
+
+omg_dataservice:sparqlendpoint
+    a                    dcat:DataService ;
+    rdfs:label           "Sparql endpoint van data.omgeving.vlaanderen.be"@nl ;
+    dc:identifier        "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint" ;
+    dcterms:description  "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."@nl ;
+    dcterms:identifier   omg_dataservice:sparqlendpoint ;
+    dcterms:license      <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+    dcterms:publisher    ovo:OVO003323 ;
+    dcterms:title        "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"@nl ;
+    dcat:contactPoint    omg_vcard:helpdesk ;
+    dcat:servesDataset   omg_dataset:codelijst-fysico-chemische-eigenschap , omg_dataset:codelijst-emissie , omg_dataset:codelijst-chemische_stof , omg_dataset:codelijst-bioindicator , omg_dataset:codelijst-observatieprocedure , omg_dataset:codelijst-matrix , omg_dataset:codelijst-sommatie_stoffen .
+
+omg_named_graph:algemeen-catalog-publiek
+    a                   sd:NamedGraph ;
+    rdfs:label          "Graph algemeen-catalog-publiek"@nl ;
+    dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek" ;
+    dcterms:identifier  omg_named_graph:algemeen-catalog-publiek ;
+    dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
+    sd:name             omg_graph:algemeen-catalog-publiek .
+
+omg_distribution:codelijst-emissie_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Emissie, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-emissie_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Emissie, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-emissie_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Emissie in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.5" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-emissie.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-emissie/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/emissie/emissie.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-emissie_ttl.html> .
 
 omg_dataset:codelijst-matrix
     a                           dcat:Dataset ;
@@ -660,16 +617,106 @@ omg_dataset:codelijst-matrix
     dcat:theme                  datatheme_be:ENVI , gemet:10087 , datatheme_eu:ENVI , eurovoc:2407 ;
     foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-matrix.html> .
 
-omg_dataset:codelijst-chemische_stof
+omg_distribution:codelijst-bioindicator_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Bioindicatoren, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-bioindicator_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Bioindicatoren, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-bioindicator_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Bioindicatoren in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.4" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-bioindicator.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-bioindicator/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/bioindicator/bioindicator.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-bioindicator_csv.html> .
+
+omg_distribution:codelijst-observatieprocedure_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Observatieprocedure, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Observatieprocedure in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.5" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_csv.html> .
+
+omg_distribution:codelijst-observatieprocedure_jsonld
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Observatieprocedure, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_jsonld" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_jsonld ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Observatieprocedure in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.5" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_jsonld.html> .
+
+omg_distribution:codelijst-sommatie_stoffen_csv
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst Sommatie Stoffen, in text/csv formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-sommatie_stoffen_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst Sommatie Stoffen, geserialiseerd in csv tabelformaat."@nl ;
+    dcterms:format        file_type:CSV ;
+    dcterms:identifier    omg_distribution:codelijst-sommatie_stoffen_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst Sommatie Stoffen in text/csv formaat."@nl ;
+    owl:versionInfo       "1.0.7" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-sommatie_stoffen.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-sommatie_stoffen/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/sommatie_stoffen/sommatie_stoffen.csv> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-sommatie_stoffen_csv.html> .
+
+omg_distribution:codelijst-fysico-chemische-eigenschap_ttl
+    a                     dcat:Distribution ;
+    rdfs:label            "Codelijst fysico chemische eigenschap, in Turtle rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-fysico-chemische-eigenschap_ttl" ;
+    dcterms:accessRights  access_right:PUBLIC ;
+    dcterms:description   "Codelijst fysico chemische eigenschap, geserialiseerd in Turtle bestand."@nl ;
+    dcterms:format        file_type:RDF_TURTLE ;
+    dcterms:identifier    omg_distribution:codelijst-fysico-chemische-eigenschap_ttl ;
+    dcterms:issued        "2022-09-10"^^xsd:date ;
+    dcterms:rightsHolder  ovo:OVO003751 ;
+    dcterms:title         "Codelijst fysico chemische eigenschap in Turtle rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.6" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-fysico-chemische-eigenschap.git> ;
+    dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-fysico-chemische-eigenschap/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/fysico-chemisch/fysico-chemisch.ttl> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-fysico-chemische-eigenschap_ttl.html> .
+
+omg_dataset:codelijst-sommatie_stoffen
     a                           dcat:Dataset ;
-    rdfs:label                  "Dataset Codelijst Chemische stoffen"@nl ;
-    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-chemische_stof" ;
+    rdfs:label                  "Dataset Codelijst Sommatie Stoffen"@nl ;
+    dc:identifier               "be.vlaanderen.omgeving.data.id.dataset.codelijst-sommatie_stoffen" ;
     dc:language                 "nl"@nl ;
     dcterms:accessRights        access_right:PUBLIC ;
     dcterms:accrualPeriodicity  frequency:IRREG ;
-    dcterms:alternative         "Codelijst Chemische stoffen Dataset"@nl ;
-    dcterms:description         "Deze dataset bevat een lijst van chemische stoffen, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
-    dcterms:identifier          omg_dataset:codelijst-chemische_stof ;
+    dcterms:alternative         "Codelijst Sommatie Stoffen Dataset"@nl ;
+    dcterms:description         "Deze dataset bevat een lijst van types sommatie_stoffen gebruikt binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."@nl ;
+    dcterms:identifier          omg_dataset:codelijst-sommatie_stoffen ;
     dcterms:issued              "2022-03-01"^^xsd:date ;
     dcterms:language            language:NLD ;
     dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
@@ -677,29 +724,47 @@ omg_dataset:codelijst-chemische_stof
     dcterms:rightsHolder        ovo:OVO003751 ;
     dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
     dcterms:temporal            omg_periodoftime:dataset_omg ;
-    dcterms:title               "Thesaurus chemische stoffen"@nl ;
-    void:rootResource           omg_conceptscheme:chemische_stof ;
-    owl:versionInfo             "1.0.9" ;
+    dcterms:title               "Thesaurus Sommatie Stoffen"@nl ;
+    void:rootResource           omg_conceptscheme:sommatie_stoffen ;
+    owl:versionInfo             "1.0.7" ;
     dcat:contactPoint           omg_vcard:helpdesk ;
-    dcat:distribution           omg_distribution:codelijst-chemische_stof_csv , omg_distribution:codelijst-chemische_stof_jsonld , omg_distribution:codelijst-chemische_stof_ttl ;
+    dcat:distribution           omg_distribution:codelijst-sommatie_stoffen_ttl , omg_distribution:codelijst-sommatie_stoffen_csv , omg_distribution:codelijst-sommatie_stoffen_jsonld ;
     dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
-    dcat:theme                  gemet:10087 , datatheme_be:ENVI , eurovoc:2407 , datatheme_eu:ENVI ;
-    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-chemische_stof.html> .
+    dcat:theme                  datatheme_be:ENVI , datatheme_eu:ENVI , eurovoc:2407 , gemet:10087 ;
+    foaf:page                   <https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-sommatie_stoffen.html> .
 
-omg_distribution:codelijst-observatieprocedure_ttl
+omg_named_graph:algemeen-conceptschemes-publiek
+    a                   sd:NamedGraph ;
+    rdfs:label          "Graph algemeen-conceptschemes-publiek"@nl ;
+    dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
+    dcterms:identifier  omg_named_graph:dsi-data-intern ;
+    dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek ;
+    sd:name             omg_graph:algemeen-conceptschemes-publiek .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst-sommatie_stoffen
+    a                      spdx:Package ;
+    rdfs:label             "Package codelijst-sommatie_stoffen"@nl ;
+    spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-sommatie_stoffen/1.0.7/codelijst-sommatie_stoffen-1.0.7.jar"^^xsd:anyURI ;
+    spdx:packageFileName   "codelijst-sommatie_stoffen-1.0.7.jar" ;
+    spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst-sommatie_stoffen" ;
+    spdx:relationshipType_packageOf
+                           omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst ;
+    spdx:versionInfo       "1.0.7" .
+
+omg_distribution:codelijst-chemische_stof_jsonld
     a                     dcat:Distribution ;
-    rdfs:label            "Codelijst Observatieprocedure, in Turtle rdf-formaat."@nl ;
-    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure_ttl" ;
+    rdfs:label            "Codelijst Chemische stoffen, in jsonld rdf-formaat."@nl ;
+    dc:identifier         "be.vlaanderen.omgeving.data.id.distribution.codelijst-chemische_stof_jsonld" ;
     dcterms:accessRights  access_right:PUBLIC ;
-    dcterms:description   "Codelijst Observatieprocedure, geserialiseerd in Turtle bestand."@nl ;
-    dcterms:format        file_type:RDF_TURTLE ;
-    dcterms:identifier    omg_distribution:codelijst-observatieprocedure_ttl ;
+    dcterms:description   "Codelijst Chemische stoffen, geserialiseerd in een jsonld bestand."@nl ;
+    dcterms:format        file_type:JSON_LD ;
+    dcterms:identifier    omg_distribution:codelijst-chemische_stof_jsonld ;
     dcterms:issued        "2022-09-10"^^xsd:date ;
     dcterms:rightsHolder  ovo:OVO003751 ;
-    dcterms:title         "Codelijst Observatieprocedure in Turtle rdf-formaat."@nl ;
-    owl:versionInfo       "1.0.5" ;
-    dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
+    dcterms:title         "Codelijst Chemische stoffen in jsonld rdf-formaat."@nl ;
+    owl:versionInfo       "1.0.9" ;
+    dcat:accessURL        <https://github.com/milieuinfo/codelijst-chemische_stof.git> ;
     dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl> ;
-    dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
-    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_ttl.html> .
+    dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-chemische_stof/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.jsonld> ;
+    dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
+    foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-chemische_stof_jsonld.html> .
